@@ -1,5 +1,5 @@
 baseURL: "https://reinbugnot.github.io" 
-title: Moritz-Maria von Igelfeld
+title: Rein Bugnot
 paginate: 20
 theme: PaperMod
 
@@ -11,21 +11,15 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
+        - name: CV
+          url: cv/
           weight: 1 
-        - name: Papers
-          url: papers/
+        - name: Projects
+          url: projects/
           weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
         - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 5
+          url: blog/
+          weight: 3
 
 params:
     description: "I am a Professor of Philology at the Institute of Romance Philology in Regensburg, Germany. My research focuses mostly on Portuguese irregular verbs.
@@ -54,44 +48,26 @@ consequat."
     profileMode:
           enabled: true
           title: Rein Bugnot
-          subtitle: "Wilkommen! I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses specifically on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dr Dr Dieter Vogelsang, in Munich, Germany, and later a doctoral student (second assistant) of Professor Walter Schoeffler-Henschell at the University of Wiesbaden, Germany."
-          imageUrl: "picture.jpeg"
+          subtitle: "Test. This is a template for my self-introduction."
+          imageUrl: "Casual Pic - Square.jpg"
           imageWidth: 160
           imageHeight: 160
-          imageTitle: Moritz-Maria von Igelfeld
+          imageTitle: Rein Bugnot
           buttons:
-            - name: Books
-              url: books/
-            - name: Papers
-              url: papers/
-            - name: Courses
-              url: courses/
-            - name: Data
-              url: data/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
+            - name: CV
+              url: BUGNOT - RESUME v2.pdf
+            - name: Projects
+              url: projects/
             - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+              url: blog/
 
     socialIcons:
         - name: Email
-          url: mailto:moritz.maria.von.igelfeld@gmail.com
-        - name: CV
-          url: cv.pdf
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
+          url: mailto:reinbugnot@gmail.com
+        - name: Linkedin
+          url: https://www.linkedin.com/in/reinbugnot/
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: YouTube
-          url: https://www.youtube.com/@alexandermccallsmithoffici9000
-        - name: Twitter
-          url: https://twitter.com/McCallSmith
+          url: https://github.com/reinbugnot
 
     assets:
         disableHLJS: true
@@ -100,8 +76,8 @@ consequat."
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
-      icon: favicon.ico
+      text: "Rein Bugnot"
+      icon: rein-icon.ico
       iconHeight: 18
 
 markup:

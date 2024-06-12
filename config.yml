@@ -22,8 +22,7 @@ menu:
           weight: 3
 
 params:
-    description: "I am a Professor of Philology at the Institute of Romance Philology in Regensburg, Germany. My research focuses mostly on Portuguese irregular verbs.
-consequat."
+    description: "I am a Data Scientist with 4+ years of experience in Machine Learning and A.I. I took a Master's Degree in Artificial Intelligence in Nanyang Technological University, Singapore. I'm passionate in building Data Science solutions to solve business problems."
     author: Rein Bugnot
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -48,7 +47,17 @@ consequat."
     profileMode:
           enabled: true
           title: Rein Bugnot
-          subtitle: "Test. This is a template for my self-introduction."
+          subtitle: 
+            "I solve problems using Data Science and AI. 🤖 <br> <br> 
+
+            4 years of experience in Data Science and AI, including machine learning, data analysis, time series analysis, computer vision (PyTorch & Keras), generative AI, natural language processing (NLP), large language models (LLMs), stable diffusion (A111 & ComfyUI), and AI Ethics & Trustworthiness. <br> <br>
+            
+            🎓 Master of Science in Artificial Intelligence, NTU Singapore <br> 
+            ⚙️ Former CEO of SmarterMeter Inc. (Building something new! 🚀) <br> 
+            🏆 Magsaysay Future Engineer and Technologist Awardee 2019 <br> 
+            🔧 Licensed Electronics Engineer (PH) <br> <br>
+            
+            <hr>"
           imageUrl: "Casual Pic - Square.jpg"
           imageWidth: 160
           imageHeight: 160
@@ -77,7 +86,7 @@ consequat."
         hiddenInSingle: true
     label:
       text: "Rein Bugnot"
-      icon: rein-icon.ico
+      icon: favicon.ico
       iconHeight: 18
 
 markup:

@@ -2,188 +2,188 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Rein Bugnot</title>
-    <link>https://reinbugnot.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Rein Bugnot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://reinbugnot.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data Science</title>
-      <link>https://reinbugnot.github.io/tags/data-science/</link>
+      <link>http://localhost:1313/tags/data-science/</link>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://reinbugnot.github.io/tags/data-science/</guid>
+      <guid>http://localhost:1313/tags/data-science/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fuzzy Inference Systems</title>
-      <link>https://reinbugnot.github.io/tags/fuzzy-inference-systems/</link>
+      <link>http://localhost:1313/tags/fuzzy-inference-systems/</link>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://reinbugnot.github.io/tags/fuzzy-inference-systems/</guid>
+      <guid>http://localhost:1313/tags/fuzzy-inference-systems/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kmeans</title>
-      <link>https://reinbugnot.github.io/tags/kmeans/</link>
+      <link>http://localhost:1313/tags/kmeans/</link>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://reinbugnot.github.io/tags/kmeans/</guid>
+      <guid>http://localhost:1313/tags/kmeans/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Time Series Forecasting</title>
-      <link>https://reinbugnot.github.io/tags/time-series-forecasting/</link>
+      <link>http://localhost:1313/tags/time-series-forecasting/</link>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://reinbugnot.github.io/tags/time-series-forecasting/</guid>
+      <guid>http://localhost:1313/tags/time-series-forecasting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>French</title>
-      <link>https://reinbugnot.github.io/tags/french/</link>
+      <link>http://localhost:1313/tags/french/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://reinbugnot.github.io/tags/french/</guid>
+      <guid>http://localhost:1313/tags/french/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Irregular Verbs</title>
-      <link>https://reinbugnot.github.io/tags/irregular-verbs/</link>
+      <link>http://localhost:1313/tags/irregular-verbs/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://reinbugnot.github.io/tags/irregular-verbs/</guid>
+      <guid>http://localhost:1313/tags/irregular-verbs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Italian</title>
-      <link>https://reinbugnot.github.io/tags/italian/</link>
+      <link>http://localhost:1313/tags/italian/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://reinbugnot.github.io/tags/italian/</guid>
+      <guid>http://localhost:1313/tags/italian/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Philology</title>
-      <link>https://reinbugnot.github.io/tags/philology/</link>
+      <link>http://localhost:1313/tags/philology/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://reinbugnot.github.io/tags/philology/</guid>
+      <guid>http://localhost:1313/tags/philology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Portuguese</title>
-      <link>https://reinbugnot.github.io/tags/portuguese/</link>
+      <link>http://localhost:1313/tags/portuguese/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://reinbugnot.github.io/tags/portuguese/</guid>
+      <guid>http://localhost:1313/tags/portuguese/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Romance Languages</title>
-      <link>https://reinbugnot.github.io/tags/romance-languages/</link>
+      <link>http://localhost:1313/tags/romance-languages/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://reinbugnot.github.io/tags/romance-languages/</guid>
+      <guid>http://localhost:1313/tags/romance-languages/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spanish</title>
-      <link>https://reinbugnot.github.io/tags/spanish/</link>
+      <link>http://localhost:1313/tags/spanish/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://reinbugnot.github.io/tags/spanish/</guid>
+      <guid>http://localhost:1313/tags/spanish/</guid>
       <description></description>
     </item>
     
     <item>
       <title>History of Oil</title>
-      <link>https://reinbugnot.github.io/tags/history-of-oil/</link>
+      <link>http://localhost:1313/tags/history-of-oil/</link>
       <pubDate>Wed, 15 Oct 2003 00:00:00 +0000</pubDate>
       
-      <guid>https://reinbugnot.github.io/tags/history-of-oil/</guid>
+      <guid>http://localhost:1313/tags/history-of-oil/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mediterranean World</title>
-      <link>https://reinbugnot.github.io/tags/mediterranean-world/</link>
+      <link>http://localhost:1313/tags/mediterranean-world/</link>
       <pubDate>Wed, 15 Oct 2003 00:00:00 +0000</pubDate>
       
-      <guid>https://reinbugnot.github.io/tags/mediterranean-world/</guid>
+      <guid>http://localhost:1313/tags/mediterranean-world/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Oleic Science</title>
-      <link>https://reinbugnot.github.io/tags/oleic-science/</link>
+      <link>http://localhost:1313/tags/oleic-science/</link>
       <pubDate>Wed, 15 Oct 2003 00:00:00 +0000</pubDate>
       
-      <guid>https://reinbugnot.github.io/tags/oleic-science/</guid>
+      <guid>http://localhost:1313/tags/oleic-science/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Canine Pulmonary Efficiency</title>
-      <link>https://reinbugnot.github.io/tags/canine-pulmonary-efficiency/</link>
+      <link>http://localhost:1313/tags/canine-pulmonary-efficiency/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
       
-      <guid>https://reinbugnot.github.io/tags/canine-pulmonary-efficiency/</guid>
+      <guid>http://localhost:1313/tags/canine-pulmonary-efficiency/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sausage Dogs</title>
-      <link>https://reinbugnot.github.io/tags/sausage-dogs/</link>
+      <link>http://localhost:1313/tags/sausage-dogs/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
       
-      <guid>https://reinbugnot.github.io/tags/sausage-dogs/</guid>
+      <guid>http://localhost:1313/tags/sausage-dogs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Zoology</title>
-      <link>https://reinbugnot.github.io/tags/zoology/</link>
+      <link>http://localhost:1313/tags/zoology/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
       
-      <guid>https://reinbugnot.github.io/tags/zoology/</guid>
+      <guid>http://localhost:1313/tags/zoology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Celtic Languages</title>
-      <link>https://reinbugnot.github.io/tags/celtic-languages/</link>
+      <link>http://localhost:1313/tags/celtic-languages/</link>
       <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
       
-      <guid>https://reinbugnot.github.io/tags/celtic-languages/</guid>
+      <guid>http://localhost:1313/tags/celtic-languages/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Irish</title>
-      <link>https://reinbugnot.github.io/tags/irish/</link>
+      <link>http://localhost:1313/tags/irish/</link>
       <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
       
-      <guid>https://reinbugnot.github.io/tags/irish/</guid>
+      <guid>http://localhost:1313/tags/irish/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Profanity</title>
-      <link>https://reinbugnot.github.io/tags/profanity/</link>
+      <link>http://localhost:1313/tags/profanity/</link>
       <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
       
-      <guid>https://reinbugnot.github.io/tags/profanity/</guid>
+      <guid>http://localhost:1313/tags/profanity/</guid>
       <description></description>
     </item>
     

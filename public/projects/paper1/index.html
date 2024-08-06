@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
-<title>Forecasting using K-means Fuzzy Hybrid Model (WIP) | Rein Bugnot</title>
+<meta name="robots" content="noindex, nofollow">
+<title>Forecasting using K-means Fuzzy Hybrid Model | Rein Bugnot</title>
 <meta name="keywords" content="fuzzy inference systems, kmeans, time series forecasting, data science">
 <meta name="description" content="This project explores the use of a Hybrid model involving Fuzzy Inference Systems and K-Means clustering to perform time series forecasting.">
 <meta name="author" content="Reinelle Jan Bugnot">
-<link rel="canonical" href="https://reinbugnot.github.io/projects/paper1/">
+<link rel="canonical" href="http://localhost:1313/projects/paper1/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.ba1d931b8d3f8d2a69e875b94ec1b6a0ac7dff69e1208957e39c19b9b7fc8d45.css" integrity="sha256-uh2TG40/jSpp6HW5TsG2oKx9/2nhIIlX45wZubf8jUU=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://reinbugnot.github.io/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://reinbugnot.github.io/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://reinbugnot.github.io/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://reinbugnot.github.io/apple-touch-icon.png">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
 
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://reinbugnot.github.io/projects/paper1/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/projects/paper1/">
 <noscript>
     <style>
         #theme-toggle,
@@ -27,17 +27,17 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="Forecasting using K-means Fuzzy Hybrid Model (WIP)" />
+</noscript><meta property="og:title" content="Forecasting using K-means Fuzzy Hybrid Model" />
 <meta property="og:description" content="This project explores the use of a Hybrid model involving Fuzzy Inference Systems and K-Means clustering to perform time series forecasting." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://reinbugnot.github.io/projects/paper1/" />
-<meta property="og:image" content="https://reinbugnot.github.io/cover.png" /><meta property="article:section" content="projects" />
+<meta property="og:url" content="http://localhost:1313/projects/paper1/" />
+<meta property="og:image" content="http://localhost:1313/cover.png" /><meta property="article:section" content="projects" />
 <meta property="article:published_time" content="2024-06-12T00:00:00+00:00" />
 <meta property="article:modified_time" content="2024-06-12T00:00:00+00:00" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://reinbugnot.github.io/cover.png" />
-<meta name="twitter:title" content="Forecasting using K-means Fuzzy Hybrid Model (WIP)"/>
+<meta name="twitter:image" content="http://localhost:1313/cover.png" />
+<meta name="twitter:title" content="Forecasting using K-means Fuzzy Hybrid Model"/>
 <meta name="twitter:description" content="This project explores the use of a Hybrid model involving Fuzzy Inference Systems and K-Means clustering to perform time series forecasting."/>
 
 
@@ -50,13 +50,13 @@
       "@type": "ListItem",
       "position":  1 ,
       "name": "Projects",
-      "item": "https://reinbugnot.github.io/projects/"
+      "item": "http://localhost:1313/projects/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "Forecasting using K-means Fuzzy Hybrid Model (WIP)",
-      "item": "https://reinbugnot.github.io/projects/paper1/"
+      "name": "Forecasting using K-means Fuzzy Hybrid Model",
+      "item": "http://localhost:1313/projects/paper1/"
     }
   ]
 }
@@ -65,16 +65,16 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Forecasting using K-means Fuzzy Hybrid Model (WIP)",
-  "name": "Forecasting using K-means Fuzzy Hybrid Model (WIP)",
+  "headline": "Forecasting using K-means Fuzzy Hybrid Model",
+  "name": "Forecasting using K-means Fuzzy Hybrid Model",
   "description": "This project explores the use of a Hybrid model involving Fuzzy Inference Systems and K-Means clustering to perform time series forecasting.",
   "keywords": [
     "fuzzy inference systems", "kmeans", "time series forecasting", "data science"
   ],
-  "articleBody": " Download Slides\rCode and Data\rK-Means Fuzzy Time Series Forecasting (KM-FTS) The K-Means Fuzzy hybrid model consists of two (quite obvious) parts: (1) a K-Means clustering algorithm that identifies the positions of the centroids of the data distribution along the vertical axis and (2) a Fuzzy Time Series Forecasting model that utilizes a Fuzzy Inference Engine from dynamically generated triangular membership functions based on the positions of the centroids generated by the clustering algorithm.\nThis implementation is largely derived from the C-Means Fuzzy Time Series Forecasting hybrid model introduced by Alyousifi, et. al. in their paper “A new hybrid fuzzy time series model with an application to predict PM10 concentration\r”. C-Means Fuzzy or Fuzzy C-means is a clustering strategy that extends the traditional K-Means algorithm to accommodate fuzzy membership values. Unlike K-Means, where each data point belongs to only one cluster with a membership degree of 1, Fuzzy C-Means allows data points to belong to multiple clusters simultaneously with varying degrees of membership [8].\nFollowing the work of Alyousifi, et. al., however, I noticed that although the hybrid model primarily deals with fuzzy systems, the purpose that the clustering algorithm fulfills in the hybrid architecture (namely, finding centroid positions) does not require a fuzzy implementation. That is, regardless of whether each data point belongs to one or more cluster (and by extension, the corresponding centroid) the calculation of the centroid positions remains largely the same. Hence, in order to simplify the process, a standard K-Means clustering algorithm should suffice in identifying centroid positions that will later be used for dynamic partitioning. Shown below is a high-level overview of the model architecture implemented in the study.\nC-Means Fuzzy Time Series Model Flowchart (Alyousifi, et. al. Implementation) (left) and My Implementation (right) Unlike most other traditional forecasting models, FTS-based models such as the hybrid model proposed by the reference study primarily models the non-stationary form of the input time-series data (shown by the lack of differencing step in Fig. 3). That means the model training itself accounts for the trend and seasonalities embedded within the series. While these kinds of models are definitely capable of producing forecasts with high performance and reliability, one known drawback of not using stationary data is that it limits the forecasting range of the model to only within the “Universe of discourse\r” to which the model was trained on.\nData The dataset that I used in this project is the CapitaLand Ascendas Real Estate Investment Trust\r(REIT) (A17U.SI) because the timeseries features a wide data range for training and testing (more than 15-years span with daily resolution), relatively stable trend, and noticeable seasonal artifacts. To load the dataset, the .csv file was downloaded directly from Yahoo! Finance, and imported using Pandas.\nThe dataset features 6 value columns: Open, High, Low, Close, Adj Close and Volume. For this timeseries forecasting project, we are only concerned about the closing price of the trust. Using pandas, we can isolate this target column, and set the Date column as the index of the series. Converting the index into the standard DateTime format of Pandas, we see below that several NaN values appear.\n# Isolate Target Columns df = data.loc[:, ['Date', 'Close']] df.set_index('Date', inplace=True) # Set to date-time index df.index = pd.to_datetime(df.index) df = df.asfreq('D') df These NaN values (which stands for “not-a-number”) refers to non-numerical entries, which in this case, specifically identifies ‘gaps’ or empty entries in our series. Inspecting this further, we can easily identify the pattern and conclude that these gaps correspond to weekends and holidays. This is because the market is closed during weekends and holidays (situational). There are many ways to deal with gaps in our time series. One of the simplest (and effective) way is to perform a forward fill. This process basically fills in the gaps / missing entries with the value of the last observed entry. In the case of weekends, the forward fill function will use the Friday’s closing date as a proxy value for the ‘closing date of weekend days’.\n# Default option: use last observed data point df.fillna(method='ffill', inplace=True) We can then plot the entire time series data as shown in Fig. 1.\nFig. 1. CapitaLand Ascendas REIT Trust closing price data used in this forecasting project Most time series forecasting methods utilize the stationary form of the training dataset. A stationary time series is one whose statistical properties, such as mean, variance, and autocorrelation, do not change over time. In other words, the data points in a stationary time series are not dependent on time, and the series has a stable, constant behavior. Stationarity is an important concept in time series analysis because many time series models and statistical methods assume or work better with stationary data. Non-stationary time series can exhibit trends, seasonality, or other patterns that can make it challenging to analyze and model the underlying processes.\nIn order to derive the first order stationary form of a time series data, we need to calculate the difference between succeeding entries. We can easily do this using the .diff() function of a Pandas Dataframe, as shown in Fig. 2.\n#Convert df.diff().plot(title='Fig. 2. First Order Differencing', ylabel='Trust Value',figsize=(15,5), grid=True, color='purple') plt.show() However, the forecasting strategy implemented in this project, does not require the use of stationary data to perform excellently (although it does introduce notable limitations), as I’ll be demonstrating and discussing in the later sections of this project.\nFig. 2. Stationary Form of the CapitaLand Ascendas REIT Trust closing price data\nGenerate Fuzzy Membership Functions We begin by defining the model parameters–in this case, just one: n_partitions which also refers to the number of centroids that we expect the K-Means algorithm to generate.\n## MODEL PARAMETERS n_partitions = 50 # OR the 'k' in our k-means algorithm ## INPUT SERIES PARAMETERS # TEST SIZE n_days = 365 # TRAIN-TEST SPLIT (Train on first 14 years, test on last 1 year) train = df.values.reshape(-1,)[:-n_days * 1] test = df.values.reshape(-1,)[-n_days * 1:] Afterwards, the code below are simple helper functions for (1) implementing k-means clustering to find the centroid positions, and for (2) generating the set of fuzzy membership functions.\n# This allows us to package our membership functions into objects rather than storing the values directly in memory class fuzzymf(object): def __init__(self, Type, Parameters): self.Type = Type self.Parameters = Parameters def __repr__(self): return 'fismf, '\\ ' Type: %s, '\\ ' Parameters: %s\\n'\\ % (self.Type,self.Parameters) def get_centroids(x, method, PAD_RATIO = 0.05, n_partitions=None): \"\"\" Get the centroid values for the FTS model based on the selected method. args: x - time series data method - the method used to generate centroids: 'grid': generate evenly spaces centroids across the range of values 'kmeans': perform kmeans clustering algorithm to dynamically identify the best centroid positions based on data distribution PAD_RATIO - extend the left half of the left most membership function, and right half of the rightmost membership function by this amount n_partitions - number of partitions / number of centroids out: centroids - list of centroids (min_val, max_val) - minimum and maximum value of the entire rangne \"\"\" assert method in ['kmeans', 'grid'] val_range = max(x) - min(x) min_val = min(x) - (val_range * PAD_RATIO) max_val = max(x) + (val_range * PAD_RATIO) #pad_min, pad_max = (min(x) - partition_len * max(x), max(x) * (1 + partition_len)) # UNIFORMLY DISTRIBUTED CENTROIDS if method == 'grid': assert n_partitions != None, 'Please specify n_partitions' centroids = np.linspace(min_val, max_val, n_partitions+1, endpoint = False) centroids = centroids[1:] # KMEANS CENTROIDS elif method == 'kmeans': assert n_partitions != None, 'Please specify n_partitions' _, centroids = kmeans1d.cluster(x, n_partitions) else: print('Invalid method') return centroids, (min_val, max_val) def span_learnmf(x, method, n_partitions = None): \"\"\" Generate a set of fuzzy membership function objects (dict). args: x - time series data method - the method used to generate centroids (passed to get_centroids function): 'grid': generate evenly spaces centroids across the range of values 'kmeans': perform kmeans clustering algorithm to dynamically identify the best centroid positions based on data distribution n_partitions - number of partitions / number of centroids (passed to get_centroids function). out: mf - set \"\"\" centroids, (min_val, max_val) = get_centroids(x, method = method, n_partitions=n_partitions) mf={} for idx, centroid in enumerate(centroids): if idx == 0: mf[idx] = fuzzymf(Type = 'trimf', Parameters = [min_val, centroid, centroids[idx+1]]) elif idx == len(centroids) - 1: mf[idx] = fuzzymf(Type = 'trimf', Parameters = [centroids[idx-1], centroid, max_val]) else: mf[idx] = fuzzymf(Type = 'trimf', Parameters = [centroids[idx-1], centroid, centroids[idx+1]]) return mf, (min_val, max_val), centroids Using the fuzzymf class, we can then generate a set of N triangular membership functions where N = n_partitions [3]. Each triangular membership function requires 3 positional parameters [a,b,c] that defines the position of the left triangle leg, the triangle apex, and the right triangle leg, respectively. In this implementation, the values of a, b, and c are generally defined as follows: a - centroid value of the previous membership function b - centroid value of the current membership function c - centroid value of the next membership function For the membership functions in the extremities of the set (i.e., the leftmost and rightmost membership functions), the a and c value is defined by a padding ratio parameter PAD_RATIO applied to the min and max values of the universe of discourse U, respectively.\nThese centroid values are calculated using a 1-dimensional K-Means clustering algorithm that clusters the datapoints based on their distribution (histogram), the output of which is illustrated in Fig. 3.\n# Generate Membership Functions using K-Means fuzzy_set, (min_val, max_val), centroids = span_learnmf(train, 'kmeans', n_partitions=n_partitions) fig, ax = plt.subplots(nrows=1, ncols=1, figsize=[15,3]) for c in centroids: ax.axvline(c, color='r',linestyle='--') ax.hist(train, bins=100) plt.xlabel('Trust Value') plt.ylabel('Count') plt.show() Fig. 3. Datapoint Distribution and Calculated Centroid Positions\nUsing the calculated centroids, we can then generate a set of membership functions, a snippet of which is illustrated in Fig. 4.\nFrom the figure shown, we can get an idea of how the K-Means clustering algorithm influences the distribution of membership centroid values. We can see how the membership values somehow cluster tightly in areas where the data distribution is high, and loosely in areas where the data distribution is low. This is the main strength of using a clustering algorithm like (1-dimensional) K-means is that it allows us to assign more centroids in areas where the concentration of data points is high. This allows us to increase the granularity of our inferencing system in areas where it is most needed.\n# Plot Membership Functions fig, ax = plt.subplots(nrows=1, ncols=1, figsize=[15,3]) for i in range(len(fuzzy_set)): x = np.linspace(min_val, max_val, (n_partitions+1)*20, endpoint = False) ax.plot(x, evalmf(fuzzy_set[i], x), label='Winning Vector 1') ax.set_xticks(x[::10]) ax.set_xlim([1,2]) ax.set_ylim([0,1.01]) ax.tick_params(axis='x', rotation=90, labelsize=6) plt.figure(figsize=(15,1.25)) plt.hist(train, density=True, bins=100) plt.xlim([1,2]) plt.ylim([0,1.01]) plt.show() plt.tight_layout() Fig. 4. Triangle Membership Functions from K-Means Centroids \\n (Zoomed in to the range of 1 to 2)\nWe can plot all N membership functions on top of the original time series data to visualize how the membership functions interact with the original data that it is derived from, as shown in Fig. 5.\n# Plot Generated Membership Functions x = np.linspace(min_val, max_val, (n_partitions+1)*20, endpoint = False) fig, ax = plt.subplots(figsize=(15,5)) ax.plot(df.index, df.values) ax.set_ylabel('Trust Value') ax.set_xlabel('Date') ## Uncomment this if we want to zoom in on a particular y value range # ax.set_ylim([2,2.5]) ax2 = ax.twiny() for i in range(len(fuzzy_set)): ax2.plot(evalmf(fuzzy_set[i], x), x, label='Winning Vector 1') ax2.set_xlim([0,10]) ax2.set_xticks([]) plt.show() Fig. 5. A17U.SI Time Series with the Kmeans-generated fuzzy membership functions\nTO BE CONTINUED Citation [1] Y. Alyousifi, M. Othman and A. A. Almohammedi, “A Novel Stochastic Fuzzy Time Series Forecasting Model Based on a New Partition Method,” in IEEE Access, 2021 [2] Alyousifi, Yousif \u0026 Mahmod, Othman \u0026 Husin, Abdullah \u0026 Rathnayake, Upaka. A new hybrid fuzzy time series model with an application to predict PM10 concentration. Ecotoxicology and Environmental SafetY, 2021 [3] A. Kai Keng, Fuzzy Memberships, AI6124 Assignment 3, Nanyang Technological University, 2023. [4] A. Kai Keng, POPFNN, AI6124 Assignment 4, Nanyang Technological University, 2023. [5] W. Di, Week 5: Clustering, AI6124 Lecture Slides, Nanyang Technological University, 2023. [6] W. Di, Week 4 - Part 1: Fuzzy Set, Fuzzy Logic, Fuzzy Rule Based System, AI6124 Lecture Slides, Nanyang Technological University, 2023. [7] J. B. Maverick, “How is the exponential moving average (EMA) formula calculated?,” Investopedia, https://www.investopedia.com/ask/answers/122314/what-exponential-moving-average-ema-formula-and-how-ema-calculated.asp\r(accessed Nov. 22, 2023). [8] A. Gupta, “Fuzzy C-means clustering (FCM) algorithm in Machine Learning,” Medium, https://medium.com/geekculture/fuzzy-c-means-clustering-fcm-algorithm-in-machine-learning-c2e51e586fff\r(accessed Nov. 22, 2023). ",
-  "wordCount" : "2089",
+  "articleBody": " Download Slides\rCode and Data\rSkip Ahead K-Means Fuzzy Time Series Forecasting (KM-FTS)\rThe Data\rSTEP 1: K-Means (KM) to generate Fuzzy Membership Functions\rSTEP 2: Fuzzy Time Series (FTS) to perform Forecasting\rFuzzification\rFuzzy Inference Engine\rDefuzzification\rBenchmarks\rOk, but can it make money tho?\rK-Means Fuzzy Time Series Forecasting (KM-FTS) The K-Means Fuzzy hybrid model consists of two (quite obvious) parts: (1) a K-Means clustering algorithm that identifies the positions of the centroids of the data distribution along the vertical axis and (2) a Fuzzy Time Series Forecasting model that utilizes a Fuzzy Inference Engine from dynamically generated triangular membership functions based on the positions of the centroids generated by the clustering algorithm.\nThis implementation is largely derived from the C-Means Fuzzy Time Series Forecasting hybrid model introduced by Alyousifi, et. al. in their paper “A new hybrid fuzzy time series model with an application to predict PM10 concentration\r”. C-Means Fuzzy or Fuzzy C-means is a clustering strategy that extends the traditional K-Means algorithm to accommodate fuzzy membership values. Unlike K-Means, where each data point belongs to only one cluster with a membership degree of 1, Fuzzy C-Means allows data points to belong to multiple clusters simultaneously with varying degrees of membership [8].\nFollowing the work of Alyousifi, et. al., however, I noticed that although the hybrid model primarily deals with fuzzy systems, the purpose that the clustering algorithm fulfills in the hybrid architecture (namely, finding centroid positions) does not require a fuzzy implementation. That is, regardless of whether each data point belongs to one or more cluster (and by extension, the corresponding centroid) the calculation of the centroid positions remains largely the same. Hence, in order to simplify the process, a standard K-Means clustering algorithm should suffice in identifying centroid positions that will later be used for dynamic partitioning. Shown below is a high-level overview of the model architecture implemented in the study.\nC-Means Fuzzy Time Series Model Flowchart (Alyousifi, et. al. Implementation) (left) and My Implementation (right) Unlike most other traditional forecasting models, FTS-based models such as the hybrid model proposed by the reference study primarily models the non-stationary form of the input time-series data (shown by the lack of differencing step in Fig. 3). That means the model training itself accounts for the trend and seasonalities embedded within the series. While these kinds of models are definitely capable of producing forecasts with high performance and reliability, one known drawback of not using stationary data is that it limits the forecasting range of the model to only within the “Universe of discourse\r” to which the model was trained on.\nThe Data The dataset that I used in this project is the CapitaLand Ascendas Real Estate Investment Trust\r(REIT) (A17U.SI) because the timeseries features a wide data range for training and testing (more than 15-years span with daily resolution), relatively stable trend, and noticeable seasonal artifacts. To load the dataset, the .csv file was downloaded directly from Yahoo! Finance, and imported using Pandas.\nThe dataset features 6 value columns: Open, High, Low, Close, Adj Close and Volume. For this timeseries forecasting project, we are only concerned about the closing price of the trust. Using pandas, we can isolate this target column, and set the Date column as the index of the series. Converting the index into the standard DateTime format of Pandas, we see below that several NaN values appear.\n# Isolate Target Columns df = data.loc[:, ['Date', 'Close']] df.set_index('Date', inplace=True) # Set to date-time index df.index = pd.to_datetime(df.index) df = df.asfreq('D') df These NaN values (which stands for “not-a-number”) refers to non-numerical entries, which in this case, specifically identifies ‘gaps’ or empty entries in our series. Inspecting this further, we can easily identify the pattern and conclude that these gaps correspond to weekends and holidays. This is because the market is closed during weekends and holidays (situational). There are many ways to deal with gaps in our time series. One of the simplest (and effective) way is to perform a forward fill. This process basically fills in the gaps / missing entries with the value of the last observed entry. In the case of weekends, the forward fill function will use the Friday’s closing date as a proxy value for the ‘closing date of weekend days’.\n# Default option: use last observed data point df.fillna(method='ffill', inplace=True) We can then plot the entire time series data as shown in Fig. 1.\nFig. 1. CapitaLand Ascendas REIT Trust closing price data used in this forecasting project Most time series forecasting methods utilize the stationary form of the training dataset. A stationary time series is one whose statistical properties, such as mean, variance, and autocorrelation, do not change over time. In other words, the data points in a stationary time series are not dependent on time, and the series has a stable, constant behavior. Stationarity is an important concept in time series analysis because many time series models and statistical methods assume or work better with stationary data. Non-stationary time series can exhibit trends, seasonality, or other patterns that can make it challenging to analyze and model the underlying processes.\nIn order to derive the first order stationary form of a time series data, we need to calculate the difference between succeeding entries. We can easily do this using the .diff() function of a Pandas Dataframe, as shown in Fig. 2.\n#Convert df.diff().plot(title='Fig. 2. First Order Differencing', ylabel='Trust Value',figsize=(15,5), grid=True, color='purple') plt.show() However, the forecasting strategy implemented in this project, does not require the use of stationary data to perform excellently (although it does introduce notable limitations), as I’ll be demonstrating and discussing in the later sections of this project.\nFig. 2. Stationary Form of the CapitaLand Ascendas REIT Trust closing price data\nSTEP 1: K-Means (KM) to generate Fuzzy Membership Functions We begin by defining the model parameters–in this case, just one: n_partitions which also refers to the number of centroids that we expect the K-Means algorithm to generate.\n🔎 Click to view code\r## MODEL PARAMETERS n_partitions = 50 # OR the 'k' in our k-means algorithm ## INPUT SERIES PARAMETERS # TEST SIZE n_days = 365 # TRAIN-TEST SPLIT (Train on first 14 years, test on last 1 year) train = df.values.reshape(-1,)[:-n_days * 1] test = df.values.reshape(-1,)[-n_days * 1:] Afterwards, the code below are simple helper functions for (1) implementing k-means clustering to find the centroid positions, and for (2) generating the set of fuzzy membership functions.\n🔎 Click to view code\r# This allows us to package our membership functions into objects rather than storing the values directly in memory class fuzzymf(object): def __init__(self, Type, Parameters): self.Type = Type self.Parameters = Parameters def __repr__(self): return 'fismf, '\\ ' Type: %s, '\\ ' Parameters: %s\\n'\\ % (self.Type,self.Parameters) def get_centroids(x, method, PAD_RATIO = 0.05, n_partitions=None): \"\"\" Get the centroid values for the FTS model based on the selected method. args: x - time series data method - the method used to generate centroids: 'grid': generate evenly spaces centroids across the range of values 'kmeans': perform kmeans clustering algorithm to dynamically identify the best centroid positions based on data distribution PAD_RATIO - extend the left half of the left most membership function, and right half of the rightmost membership function by this amount n_partitions - number of partitions / number of centroids out: centroids - list of centroids (min_val, max_val) - minimum and maximum value of the entire rangne \"\"\" assert method in ['kmeans', 'grid'] val_range = max(x) - min(x) min_val = min(x) - (val_range * PAD_RATIO) max_val = max(x) + (val_range * PAD_RATIO) #pad_min, pad_max = (min(x) - partition_len * max(x), max(x) * (1 + partition_len)) # UNIFORMLY DISTRIBUTED CENTROIDS if method == 'grid': assert n_partitions != None, 'Please specify n_partitions' centroids = np.linspace(min_val, max_val, n_partitions+1, endpoint = False) centroids = centroids[1:] # KMEANS CENTROIDS elif method == 'kmeans': assert n_partitions != None, 'Please specify n_partitions' _, centroids = kmeans1d.cluster(x, n_partitions) else: print('Invalid method') return centroids, (min_val, max_val) def span_learnmf(x, method, n_partitions = None): \"\"\" Generate a set of fuzzy membership function objects (dict). args: x - time series data method - the method used to generate centroids (passed to get_centroids function): 'grid': generate evenly spaces centroids across the range of values 'kmeans': perform kmeans clustering algorithm to dynamically identify the best centroid positions based on data distribution n_partitions - number of partitions / number of centroids (passed to get_centroids function). out: mf - set \"\"\" centroids, (min_val, max_val) = get_centroids(x, method = method, n_partitions=n_partitions) mf={} for idx, centroid in enumerate(centroids): if idx == 0: mf[idx] = fuzzymf(Type = 'trimf', Parameters = [min_val, centroid, centroids[idx+1]]) elif idx == len(centroids) - 1: mf[idx] = fuzzymf(Type = 'trimf', Parameters = [centroids[idx-1], centroid, max_val]) else: mf[idx] = fuzzymf(Type = 'trimf', Parameters = [centroids[idx-1], centroid, centroids[idx+1]]) return mf, (min_val, max_val), centroids Using the fuzzymf class, we can then generate a set of N triangular membership functions where N = n_partitions [3]. Each triangular membership function requires 3 positional parameters [a,b,c] that defines the position of the left triangle leg, the triangle apex, and the right triangle leg, respectively. In this implementation, the values of a, b, and c are generally defined as follows: a - centroid value of the previous membership function b - centroid value of the current membership function c - centroid value of the next membership function For the membership functions in the extremities of the set (i.e., the leftmost and rightmost membership functions), the a and c value is defined by a padding ratio parameter PAD_RATIO applied to the min and max values of the universe of discourse U, respectively.\nThese centroid values are calculated using a 1-dimensional K-Means clustering algorithm that clusters the datapoints based on their distribution (histogram), the output of which is illustrated in Fig. 3.\n🔎 Click to view code\r# Generate Membership Functions using K-Means fuzzy_set, (min_val, max_val), centroids = span_learnmf(train, 'kmeans', n_partitions=n_partitions) fig, ax = plt.subplots(nrows=1, ncols=1, figsize=[15,3]) for c in centroids: ax.axvline(c, color='r',linestyle='--') ax.hist(train, bins=100) plt.xlabel('Trust Value') plt.ylabel('Count') plt.show() Fig. 3. Datapoint Distribution and Calculated Centroid Positions\nUsing the calculated centroids, we can then generate a set of membership functions, a snippet of which is illustrated in Fig. 4.\nFrom the figure shown, we can get an idea of how the K-Means clustering algorithm influences the distribution of membership centroid values. We can see how the membership values somehow cluster tightly in areas where the data distribution is high, and loosely in areas where the data distribution is low. This is the main strength of using a clustering algorithm like (1-dimensional) K-means is that it allows us to assign more centroids in areas where the concentration of data points is high. This allows us to increase the granularity of our inferencing system in areas where it is most needed.\n🔎 Click to view code\r# Plot Membership Functions fig, ax = plt.subplots(nrows=1, ncols=1, figsize=[15,3]) for i in range(len(fuzzy_set)): x = np.linspace(min_val, max_val, (n_partitions+1)*20, endpoint = False) ax.plot(x, evalmf(fuzzy_set[i], x), label='Winning Vector 1') ax.set_xticks(x[::10]) ax.set_xlim([1,2]) ax.set_ylim([0,1.01]) ax.tick_params(axis='x', rotation=90, labelsize=6) plt.figure(figsize=(15,1.25)) plt.hist(train, density=True, bins=100) plt.xlim([1,2]) plt.ylim([0,1.01]) plt.show() plt.tight_layout() Fig. 4. Triangle Membership Functions from K-Means Centroids \\n (Zoomed in to the range of 1 to 2)\nWe can plot all N membership functions on top of the original time series data to visualize how the membership functions interact with the original data that it is derived from, as shown in Fig. 5.\n🔎 Click to view code\r# Plot Generated Membership Functions x = np.linspace(min_val, max_val, (n_partitions+1)*20, endpoint = False) fig, ax = plt.subplots(figsize=(15,5)) ax.plot(df.index, df.values) ax.set_ylabel('Trust Value') ax.set_xlabel('Date') ## Uncomment this if we want to zoom in on a particular y value range # ax.set_ylim([2,2.5]) ax2 = ax.twiny() for i in range(len(fuzzy_set)): ax2.plot(evalmf(fuzzy_set[i], x), x, label='Winning Vector 1') ax2.set_xlim([0,10]) ax2.set_xticks([]) plt.show() Fig. 5. A17U.SI Time Series with the Kmeans-generated fuzzy membership functions\nSTEP 2: Fuzzy Time Series (FTS) to perform Forecasting The primary forecasting model implemented in this project is a Fuzzy Time Series (FTS) forecasting model. The figure below shows the basic components of a Fuzzy Inference System. Specifically, a crisp input goes through a fuzzification process that converts it into its corresponding fuzzified variable, which then goes to a fuzzy inference engine. Based on a set of fuzzy rules, the inference engine outputs a new fuzzified variable that is then converted back to its crisp value via a defuzzification process [6]. I know, these ‘fuzzy’ words are actually official terms!\nFig. 6. Fuzzy Inference System Flowchart Fuzzification Fuzzification is the first step in Fuzzy Inference Systems (FIS) that involves converting crisp input data into fuzzified variables. In typical FIS, these fuzzified variables are often linguistic or qualitative in nature, and fuzzification allows for the representation of these inputs as fuzzy sets, which capture the inherent uncertainty and imprecision associated with natural language terms [6]. However, in Fuzzy Time Series, these fuzzified variables represent discrete data levels associated with the centroid of each fuzzy membership function [1]. For instance, if we only have N = 3 partitions, then the fuzzification process will generate a set of 3 fuzzified variables [A1, A2, A3] that could represent a linguistic interpretation equivalent to 'low', 'middle', and 'high'. In essence, for a given crisp input (e.g. today’s trust price), the fuzzification process may generate a corresponding fuzzy value of ‘high,’ mapping today’s actual value (1.533860 -\u003e A3).\nOfcourse, in the case of the actual implementation with N = 50 partitions, an equivalent linguistic interpretation for each fuzzy variable A1, A2, ... , A50 may not be as easy to derive; however, I would argue that the logic and pattern behind this would stay the same.\n🔎 Click to view code\rdef get_membership(input_value, fuzzy_set=fuzzy_set, prefix='A'): \"\"\" Generate the fuzzified variables A1, A2, ... AN corresponding to the given crisp input args: input_value - crisp input fuzzy_set - set of membership functions prefix - used to represent the fuzzy variable out: (linguistic variable (Ak), fuzzy variable index (k)) \"\"\" membership_keys = [key for key, value in fuzzy_set.items() if value.Parameters[0] \u003c input_value \u003c value.Parameters[-1]] membership_vals = [evalmf(fuzzy_set[key], input_value)[0] for key in membership_keys] membership_index = membership_keys[np.argmax(membership_vals)] return prefix+str(membership_index), membership_index # Use the get_membership function defined above to fuzzify the training data fuzzified_lv = [] fuzzified_val = [] for crisp_val in train: ling_var, val = get_membership(crisp_val) fuzzified_lv.append(ling_var) fuzzified_val.append(val) After fuzzifying the crisp value of our training data, the next step to perform Fuzzy Time Series forecasting is to derive the uzzy relationships between the series of fuzzy variables generated from the previous steps. That is, we associate today’s fuzzified variable (e.g. ‘A2’) with yesterday’s fuzzified variable (e.g. ‘A3’), to build the fuzzy logical relationship A3 -\u003e A2. Doing this for the entire training data yields a series of fuzzy relationships shown in Table I.\n🔎 Click to view code\r## Fuzzy Logical Relationships (FLRs) fuzzified_lv_lag = fuzzified_lv[:-1] fuzzified_lv_lead = fuzzified_lv[1:] fuzzified_lag = fuzzified_val[:-1] fuzzified_lead = fuzzified_val[1:] #pd.DataFrame([fuzzified_lv_lag, fuzzified_lv_lead], index=['lag', 'lead']).transpose() # FLR Index Values flr_vals = [(i,j) for i,j in zip(fuzzified_lag, fuzzified_lead)] # Display Sequential FLR Linguistic Variables flr_lv = [i + '-\u003e' + j for i,j in zip(fuzzified_lv_lag, fuzzified_lv_lead)] fuzzified_df = pd.concat([pd.Series(df.index)[:15], pd.Series(train[:15]), pd.Series(fuzzified_lv[:15]), pd.Series(['-'] + flr_lv)[:15]], axis=1) fuzzified_df.columns = ['Date', 'Trust Value', 'Fuzzy Number', 'Fuzzy Logical Relationship'] #Add Table Title fig = plt.figure(figsize = (8, .3)) ax = fig.add_subplot(111) ax.set_title('TABLE I. Output of the Fuzzification Process', loc='left') ax.axis('off') fuzzified_df Fuzzy Inference Engine The next step is to develop the Fuzzy Rules which will be the main input to our fuzzy inference engine. In the case of this project, the fuzzy rules are derived by grouping the fuzzy logical relationships into groups, which the reference study calls Fuzzy Logical Relationship Groups (FLRG), alongside the frequency associated with each fuzzy logical relationship [2].\nThe output of the next cell shows the 50 different FLRGs (and their frequencies) derived from the FLRs generated by the Fuzzification process.\n🔎 Click to view code\r## Fuzzy Logical Relationship Groups (FLRGs) flrg_df = pd.DataFrame(flr_vals, columns=['lag', 'lead']) flrg_transitions = flrg_df.groupby(['lag', 'lead'])['lead'].count() print('FTS Model:') for i in range(n_partitions): try: flrg_transition_leads = list(flrg_transitions[i].index) flrg_transition_counts = list(flrg_transitions[i].values) transitions = [f'A{lead_idx}({flrg_transition_counts[j]})' for j, lead_idx in enumerate(flrg_transition_leads)] print(f'A{i} -\u003e {\" \".join(transitions)}') except: pass Fig. 7. Fuzzy Relationship Groups We can interpret the FLRGs like a markov chain. For instance, the FLRG: A11 -\u003e A9(1) A10(14) A11(67) A12(19) Is equivalent to a markov state transition with (previous state) -\u003e (next state) (transition weight) A11 -\u003e A9 (weight of 1) A11 -\u003e A10 (weight of 14) A11 -\u003e A11 (weight of 67) A11 -\u003e A12 (weight of 19) Normalizing these weights effectively gives us the probability that the fuzzy variable of the next time step is Ak given that the fuzzy variable of the current time step is A11, where k = 9, …, 12. We can then represent these transition probabilities across all 50 FLRGs through an NxN markov probability matrix $P$ where the rows represent the previous fuzzy state and the columns represent the next fuzzy state. Each cell within this matrix therefore indicates the probability p that the next state is s_col given that the previous state is s_row [2]. Table II shows a (10x10) snippet of the markov transition probability matrix calculated from the 50 FLRGs above. This transition probability matrix, taking in a fuzzified variable as an input and producing a new fuzzified variable as an ouput, effectively represents our fuzzy rule-base and is therefore at the heart of our fuzzy inference engine.\n🔎 Click to view code\r## Calculate Transition Count Matrix # Identify unique states states = list(np.arange(n_partitions)) # Create a default dictionary to hold markers transition_markers = defaultdict(int) # Traverse the list and add marker in the dictionary for (i,j) in flr_vals: transition_markers[(i,j)] = flrg_transitions[i, j] # Create an empty matrix of size n x n n = len(states) transition_matrix = np.zeros((n,n)) # Fill the transition matrix with markers from the dictionary for key, val in transition_markers.items(): i, j = key transition_matrix[i][j] = val probability_matrix = transition_matrix/transition_matrix.sum(axis=1).reshape(-1,1) state_names = ['A'+str(i) for i in states] # Add Table Title fig = plt.figure(figsize = (8, .3)) ax = fig.add_subplot(111) ax.set_title('TABLE II. Markov Transition Probability Matrix (First 10 Fuzzy States)', loc='left') ax.axis('off') pd.DataFrame(probability_matrix, columns=state_names, index=state_names).iloc[:10, :10] Defuzzification Defuzzification, i.e. to converting the generated fuzzy variables generated by our fuzzy inference engine back to its corresponding crisp value (a.k.a the point forecast for time step t+1), can be performed using the following equation, which is my modified (and simplified) version of the original formula proposed by Alyousifi, et. al. The logic behind my revision of the original implementation is to remove any potential data leakage from feeding the actual observed value into the inference engine through $\\mathbf{ĉ}$.\nAlyousifi's Original Implementation [2]: $$ F(t+1) = \\mathbf{ĉ} ⋅ \\mathbf{p_t} + D(F(t))$$\nMy Implementation: $$ F(t+1) = \\mathbf{c} ⋅ \\mathbf{p_t} + γ D(F(t))$$\nwhere\n$\\mathbf{c}$ is the vector of centroid values generated from the K-Means clustering process $\\mathbf{ĉ}$ is $\\mathbf{c}$ but the centroid value at position k corresponding to the fuzzy variable Ak is replaced with $F(t)$ or the original crisp value for time step t. $\\mathbf{p_t}$ is the probability vector corresponding to a row in the markov transition probability matrix $P$, given the fuzzy variable Ak for the current time step $D(F(t))$ is the first order differencing of the actual values at time step t γ is the discount factor that controls the degree on which the differencing influences the final forecast. 🔎 Click to view code\r# DEFUZZIFICATION def get_point_forecast(point_value, centroids, probability_matrix): \"\"\" Calculates the (un-adjusted) point forecast for time step t+1 args: point_value - crisp value for time step t centroids - vector of centroids from the K-Means clustering probability_matrix - markov transition probability matrix out: point_forecast - forecast for time step t+1 \"\"\" # Fuzzification fz_lv, fz_val = get_membership(point_value) # Isolate vector p probabilities = probability_matrix[fz_val, :].copy() # c ⋅ p dfz_centroids = centroids *probabilities dfz_centroids = dfz_centroids[dfz_centroids!=0] point_forecast = np.sum(dfz_centroids) return point_forecast def predict(data, discount_factor = 0.33): \"\"\" Generate rolling forecast args: data - input data discount_factor - degree of influence of differencing out: complete forecast \"\"\" raw_forecasts = pd.Series(data).apply(lambda x: get_point_forecast(x, centroids, probability_matrix)).values.reshape(-1,) # Calculate the discounted first order differencing adjustment value first_diff = pd.Series(data).diff()[1:].reset_index(drop=True) * discount_factor return raw_forecasts[1:] + first_diff empty_train = np.empty(len(train[-365:])) empty_train[:] = np.nan # Generate forecast for input series starting from the last training data point forecasts = predict(np.insert(test, 0, train[-1])) fig, ax = plt.subplots(nrows=1, ncols=1, figsize=[15,5]) tr, = plt.plot(train[-365:], label=\"Train Data (final year)\") orig, = plt.plot(np.concatenate((empty_train, test)), color='k', label=\"Original data\",) pred, = plt.plot(np.concatenate((empty_train, forecasts)), label=\"Forecasts\", color='r', linestyle='--') plt.title('Fig. 8. Forecast Values generated by the KM-FTS model') plt.xlabel('Day') plt.ylabel('Trust Value') plt.legend(handles=[tr, orig, pred]) plt.show() Fig. 8. Forecast Values generated by the KM-FTS model Benchmarks Fig. 8. shows the complete forecast generated by our KM-FTS model implementation with 50 partitions. We can see that the forecast was able to capture general trend and seasonal behavior of the actual test series. Evaluating the predictive performance of a forecasting model is important in pinpointing the best model for a forecasting task. Several statistical techniques can be used to perform model evaluation. This project utilizes four statistical metrics to measure the forecasting accuracy of our KM-FTS model, namely, Mean Absolute Percentage Error (MAPE), Root Mean Square Error (RMSE), Thiels’ U-statistics, and R-squared, the formulas of which is shown below:\nThe generated hybrid KM-FTS model is then benchmarked across these 4 evaluation metrics against several models, namely:\nBASE-RW: Base random walk model (today’s price is tomorrow’s price) GRID-FTS25, GRID-FTS50, GRID-FTS100: Standard FTS model with 25, 50, and 100 partitions respectively. No K-Means clustering method was used to find the best positions of membership function centroids. Instead, the partitioning is set to be evenly distributed across the universe of discourse U. Decision Tree: Decision Tree regressor with 4-fold cross validation LGBM: Light Gradient Boosting Model with 4-fold cross validation Since RandomWalk and GRID-FTS are deterministic models, no n-fold cross validation is required. Benchmark Results As demonstrated in Table III, the hybrid KM-FTS model yields the best forecasting performance, generally surpassing the other models, according to the selected statistical benchmarks. Our KM-FTS model produced the lowest Root Mean Square Error (RMSE) and Mean Absolute Percentage Error (MAPE), and the highest R-squared value across all other models; only being out-performed by the GRID-FTS100 model in the Theil’s U-statistic by a close margin.\nFrom here, it is clear that hybridizing the standard FTS model with a K-Means clustering algorithm to select the optimal centroid positions of our membership functions produces a forecasting model with outstanding performance. So-much-so that our hybrid model with only 50 partitions was able to generally out-perform even the standard FTS model with 100 partitions. I would say this is because through the K-Means clustering method, we are able to identify areas of high and low concentration of values, and are thus able to allocate more membership functions to more finely disaggregate the trend into a series of fuzzy logical relationships. This was fully demonstrated in Fig. 5 earlier. In contrast, a uniform partitioning method implemented in standard FTS models will evenly allocate partitions, even in areas within our universe of discourse where data points are sparse, hence, producing more weakly associated fuzzy logical relationships.\nHowever, my KM-FTS implementation, largely derived from the original CM-FTS model introduced by Alyousifi, et. al., does not come without drawbacks. By design the model was trained directly on non-stationary data. This is important for the model to work since the core working logic behind Fuzzy Time Series forecasting is the mapping of Fuzzy Logical Relationships (FLRs) across the universe of discourse. By converting the time series data into stationary through first (or even second) order differencing, we effectively remove the trend of the series that enables fuzzification [2]. In effect, while the KM-FTS model (or any FTS-based model trained on non-stationary data for that matter) works excellently in the provided data, it has no forecasting capability outside the universe of discourse on which it was trained on. This model would be rendered useless, for instance, on time series data with high variance and unpredictability (such as volatile stocks). However, I would argue that since we are mainly concerned of forecasting trusts, which are relatively stable, it may then be possible for us to find effective use of the model in this domain.\nFig. 9. Benchmark Results Ok, but can it make money tho? Finally, the ultimate question for any model that attempts to forecast stock/trust values is: can we make money? In order to simulate this, we first need to generate buy and sell signals from the forecasted series. Here, we define the exponential moving average (EMA) as follows:\n$$EMA_t = \\alpha * P_t + (1 - \\alpha) * EMA_{t-1}$$\nwhere:;\n$P_t$ is the price of the asset at time $t$ $EMA_t$ is the exponential moving average at time $t$ $\\alpha$ is the smoothing factor, which determines the weight given to the most recent price. It is calculated as follows: $$\\alpha = \\frac{2}{n+1}$$\nwhere $n$ is the number of periods in the moving average [7].\nParticularly in the finance domain, the $n$ parameter defines the number of days on which we perform EMA; (e.g. 128-day EMA for EMA with $n$ = 128)\nBy using two exponential moving average (EMA) models, one slow and one fast (where a slow EMA has a higher $n$ value than a fast EMA), we can define a buy signal whenever the slow EMA crosses below the fast ema, and a sell signal whenever the slow EMA crosses above the fast EMA, as shown in Fig. 10.\n🔎 Click to view code\r# EMA fast_ema = pd.Series(forecasts).ewm(span = 12).mean().values.reshape(-1,) slow_ema = pd.Series(forecasts).ewm(span = 132).mean().values.reshape(-1,) # Calculate signals and positions signal = np.where(slow_ema \u003e fast_ema, 1.0, 0) position = pd.Series(signal).diff().values.reshape(-1,) # The positions derived from the forecasts will be measured against the actual market movement trade_positions_series = test * position # Drop NaN entries trade_positions = trade_positions_series[~np.isnan(trade_positions_series)] # Drop zeros trade_positions = trade_positions[trade_positions != 0] # Isolate buy and sell positions buy_positions = trade_positions[trade_positions \u003e 0] sell_positions = trade_positions[trade_positions \u003c 0] # Plot Result fig, ax = plt.subplots(nrows=1, ncols=1, figsize=[15,5]) ax.plot(forecasts, label=\"Forecasts\", color='r') ax.plot(fast_ema, 'k--') ax.plot(slow_ema, 'b--') ax.set_ylim([min(forecasts) - (min(forecasts) * 0.15), max(forecasts)*1.01]) ax.legend(['forecasted', 'fast ema', 'slow ema']) ax.set_xlabel('Day') ax.set_ylabel('Trust Value') ax2 = ax.twinx() ax2.plot(signal) ax2.set_ylim([-0.1,5]) ax2.set_yticks([]) ax2.legend(['Buy (high to low) \\n Sell (low to high)'], loc=4) plt.title('Fig. 10. Calculating Buy and Sell Signals') plt.show() Fig. 10. Calculating Buy and Sell Signals We can further optimize our trading strategy by doing a simple grid search across many different combinations of slow and fast EMA $n$ values. Here, I tested for period values from 6 days to 300 days in increments of 3.\n🔎 Click to view code\r# Optimize Moving Average Parameters def get_trade_positions_ema(fast_span, slow_span, forecast_series=forecasts): \"\"\" Use fast and slow ema to generate buy and sell positions \"\"\" fast_ema = pd.Series(forecast_series).ewm(span = fast_span).mean().values.reshape(-1,) slow_ema = pd.Series(forecast_series).ewm(span = slow_span).mean().values.reshape(-1,) signal = np.where(slow_ema \u003e fast_ema, 1.0, 0) position = pd.Series(signal).diff().values.reshape(-1,) # The positions derived from the forecasts will be measured against the actual market movement trade_positions_series = test * position # Drop NaN entries trade_positions = trade_positions_series[~np.isnan(trade_positions_series)] # Drop zeros trade_positions = trade_positions[trade_positions != 0] # Isolate buy and sell positions buy_positions = trade_positions[trade_positions \u003e 0] sell_positions = trade_positions[trade_positions \u003c 0] return buy_positions, sell_positions, trade_positions_series def simulate_trade(starting_value, buy_positions, sell_positions): \"\"\" Simulate trade steps \"\"\" asset_value = [starting_value] for i in range(len(sell_positions)): asset_value.append((asset_value[i] / buy_positions[i]) * (-1 * sell_positions[i])) return asset_value def get_best_params(forecast_series): \"\"\" Get the best-performing fast and slow EMA parameters \"\"\" span_vals = list(np.arange(6, 300, 3)) net_profit = 0 best_params = [] for fast_span in span_vals: for slow_span in span_vals: buy_positions, sell_positions, _ = get_trade_positions_ema(fast_span, slow_span, forecast_series) asset_value = simulate_trade(1000, buy_positions, sell_positions) if asset_value[-1] - asset_value[0] \u003e net_profit: net_profit = asset_value[-1] - asset_value[0] best_params = [fast_span, slow_span] #print(f'Better Position found at {fast_span}-day EMA and {slow_span}-day EMA. \\n Generated Profit: {net_profit}') return best_params[0], best_params[1] def calc_profit_trend(forecast_series, trade_positions_series, wallet = 1000): \"\"\" Calculate profit trend across the timeline of the series \"\"\" n_shares = 0 total_assets = [wallet] for i, pos in enumerate(trade_positions_series): if not np.isnan(pos): # No signal if pos == 0: curr_asset_value = n_shares * forecast_series[i] + wallet total_assets.append(curr_asset_value) # Buy Signal = Buy all if pos \u003e 0: n_shares = wallet / forecast_series[i] wallet = 0 curr_asset_value = n_shares * forecast_series[i] + wallet total_assets.append(curr_asset_value) # Sell Signal = Sell all if pos \u003c 0: wallet = n_shares * forecast_series[i] n_shares = 0 curr_asset_value = n_shares * forecast_series[i] + wallet total_assets.append(curr_asset_value) return total_assets Simulating trade with a starting asset value of SG$ 1000 at the start of the year, with an all-in strategy of buying and selling ALL our current asset/shares following the generated buy and sell signals, we get the following profit/loss:\n🔎 Click to view code\rprofit_trends = [] starting_money = 1000 for forecast in [forecasts] + benchmark_model_preds[:-1]: fast_span, slow_span = get_best_params(forecast) _, _, trade_positions_series = get_trade_positions_ema(fast_span, slow_span, forecast) profit_trends.append(calc_profit_trend(forecast, trade_positions_series, wallet = starting_money)) fig, ax = plt.subplots(nrows=1, ncols=1, figsize=[15, 5]) for i, predictions in enumerate(profit_trends): if i == 0: ax.plot(predictions, color = 'k', marker='^', markevery=28) else: ax.plot(predictions, linestyle='--', marker='^', markevery=28) # Place the legend with 4 columns and 2 rows plt.legend(['OURS: KM-FTS50'] + benchmark_model_names[:-1], bbox_to_anchor=(0.5, -0.2), loc='upper center', ncol=4) plt.xlabel('Day') plt.ylabel('Asset Value') plt.title('Fig. 11. Asset Value Curve') plt.show() Fig. 11. Asset Value Curve We can then calculate the simulated net profit.\n🔎 Click to view code\rnet_profit = np.array(profit_trends)[:, -1] - starting_money PNL = np.round(net_profit/starting_money * 100, 2) profit_df = pd.DataFrame([net_profit, PNL]).transpose() profit_df.columns = ['Net Profit', 'P/L %'] profit_df.index = ['OURS: KM-FTS50'] + benchmark_model_names[:-1] # Add Table Title fig = plt.figure(figsize = (8, .3)) ax = fig.add_subplot(111) ax.set_title('TABLE IV. Profit Benchmark', loc='left') ax.axis('off') profit_df Easy Money! … or is it? In this project, we developed a hybrid forecasting model combining K-Means clustering and Fuzzy Time Series, using Python and standard libraries. Initially, we generated centroids by applying 1-dimensional K-Means clustering to the vertical axis of our training data. Subsequently, we created triangular fuzzy membership functions based on these centroids.\nThe model operates in three stages: Fuzzification, Fuzzy Inference, and Defuzzification. For the fuzzification stage, each crisp input—such as the trust value at time t—is transformed into a fuzzified variable, Ak, effectively discretizing the continuous data.\nThe core of our model is a fuzzy inference engine, which relies on a Markov transition probability matrix to produce forecasts in the fuzzy domain. These forecasts are then converted back to precise values using a simplified version of a formula from Alyousifi et al. We evaluated our model’s performance using four statistical metrics (RMSE, MAPE, Theil’s U, and R2) and two profitability metrics (net profit and P/L), comparing it against six other models. Our model, with its 50 centroids, consistently outperformed the others, notably a GRID-FTS model with 100 partitions.\nWe can see that we’re able to generate the most profit of SG$ 509.80 corresponding to a profit margin of 50.98% across 1 year, again, outperforming the other models in our benchmarks. Surprisingly, GRID-FTS50, a model that was not able to beat the random walk model in the statistical benchmarks shown in Table III, now beats random walk in the profit benchmark by a considerable margin of 26.98% vs 18.37%, respectively. This goes to show that trading strategy is just as crucial as time-series forecasting in building a robust trading model.\nEasy money! … or is it? Of course, it is not all sunshine and rainbows. It’s important to note that while the model showed promising results in simulations, forecasting models typically do not perform as well in real-world scenarios. Machine learning models often struggle to consistently outperform stock indices over extended periods. The KM-FTS model, tailored specifically for the dataset (A17U.SI) and its particular range, while not utilizing stationary data as input, will likely fail to generalize well to other datasets or conditions. Future works can explore other models or transformations to generate fuzzy membership functions from stationary time series data.\nStill, this project is a good illustration of how we can leverage even obscure machine learning principles and AI algorithms to analyze data and produce interesting results. Ultimately, it remains the trader’s responsibility to discern the right moments to buy or sell based on these insights as guiding principles, not automated tools to make easy money.\nIf you made it this far, wow, I appreciate you very much.\nThis report and all the code presented is written by the author, unless otherwise stated/cited. References [1] Y. Alyousifi, M. Othman and A. A. Almohammedi, “A Novel Stochastic Fuzzy Time Series Forecasting Model Based on a New Partition Method,” in IEEE Access, 2021 [2] Alyousifi, Yousif \u0026 Mahmod, Othman \u0026 Husin, Abdullah \u0026 Rathnayake, Upaka. A new hybrid fuzzy time series model with an application to predict PM10 concentration. Ecotoxicology and Environmental SafetY, 2021 [3] A. Kai Keng, Fuzzy Memberships, AI6124 Assignment 3, Nanyang Technological University, 2023. [4] A. Kai Keng, POPFNN, AI6124 Assignment 4, Nanyang Technological University, 2023. [5] W. Di, Week 5: Clustering, AI6124 Lecture Slides, Nanyang Technological University, 2023. [6] W. Di, Week 4 - Part 1: Fuzzy Set, Fuzzy Logic, Fuzzy Rule Based System, AI6124 Lecture Slides, Nanyang Technological University, 2023. [7] J. B. Maverick, “How is the exponential moving average (EMA) formula calculated?,” Investopedia, https://www.investopedia.com/ask/answers/122314/what-exponential-moving-average-ema-formula-and-how-ema-calculated.asp\r(accessed Nov. 22, 2023). [8] A. Gupta, “Fuzzy C-means clustering (FCM) algorithm in Machine Learning,” Medium, https://medium.com/geekculture/fuzzy-c-means-clustering-fcm-algorithm-in-machine-learning-c2e51e586fff\r(accessed Nov. 22, 2023). ",
+  "wordCount" : "5525",
   "inLanguage": "en",
-  "image":"https://reinbugnot.github.io/cover.png","datePublished": "2024-06-12T00:00:00Z",
+  "image":"http://localhost:1313/cover.png","datePublished": "2024-06-12T00:00:00Z",
   "dateModified": "2024-06-12T00:00:00Z",
   "author":[{
     "@type": "Person",
@@ -82,14 +82,14 @@
   }],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://reinbugnot.github.io/projects/paper1/"
+    "@id": "http://localhost:1313/projects/paper1/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Rein Bugnot",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://reinbugnot.github.io/favicon.ico"
+      "url": "http://localhost:1313/favicon.ico"
     }
   }
 }
@@ -131,9 +131,9 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://reinbugnot.github.io/" accesskey="h" title="Rein Bugnot">
+            <a href="http://localhost:1313/" accesskey="h" title="Rein Bugnot">
              
-                <img src="https://reinbugnot.github.io/favicon.ico" alt="" aria-label="logo"
+                <img src="http://localhost:1313/favicon.ico" alt="" aria-label="logo"
                     height="18"
                     width="18">Rein Bugnot</a>
             <div class="logo-switches">
@@ -141,12 +141,12 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="https://reinbugnot.github.io/cv/" title="CV">
+                <a href="http://localhost:1313/cv/" title="CV">
                     <span>CV</span>
                 </a>
             </li>
             <li>
-                <a href="https://reinbugnot.github.io/projects/" title="Projects">
+                <a href="http://localhost:1313/projects/" title="Projects">
                     <span>Projects</span>
                 </a>
             </li>
@@ -160,7 +160,7 @@
   <header class="post-header">
     
     <h1 class="post-title">
-      Forecasting using K-means Fuzzy Hybrid Model (WIP)
+      Forecasting using K-means Fuzzy Hybrid Model
     </h1>
     <div class="post-meta"><span title='2024-06-12 00:00:00 +0000 UTC'>June 2024</span>&nbsp;&middot;&nbsp;Reinelle Jan Bugnot&nbsp;&middot;&nbsp;<a href="https://github.com/reinbugnot/kmeans-fuzzy-ts-forecast/tree/main" rel="noopener noreferrer" target="_blank">AI6124 Neuro Evolution and Fuzzy Intelligence</a>
 
@@ -174,11 +174,44 @@
 <li><a href="https://github.com/reinbugnot/kmeans-fuzzy-ts-forecast/tree/main" target="_blank">Code and Data</a>
 </li>
 </ul>
+<h5 id="skip-ahead">Skip Ahead</h5>
+<ul>
+<li><a href="#k-means-fuzzy-time-series-forecasting-km-fts">K-Means Fuzzy Time Series Forecasting (KM-FTS)</a>
+</li>
+<li><a href="#the-data">The Data</a>
+</li>
+<li><a href="#step-1-k-means-km-to-generate-fuzzy-membership-functions">STEP 1: K-Means (KM) to generate Fuzzy Membership Functions</a>
+</li>
+<li><a href="#step-2-fuzzy-time-series-fts-to-perform-forecasting">STEP 2: Fuzzy Time Series (FTS) to perform Forecasting</a>
+</li>
+<li>
+<ul>
+<li><a href="#fuzzification">Fuzzification</a>
+</li>
+</ul>
+</li>
+<li>
+<ul>
+<li><a href="#fuzzy-inference-engine">Fuzzy Inference Engine</a>
+</li>
+</ul>
+</li>
+<li>
+<ul>
+<li><a href="#defuzzification">Defuzzification</a>
+</li>
+</ul>
+</li>
+<li><a href="#benchmarks">Benchmarks</a>
+</li>
+<li><a href="#ok-but-can-it-make-money-tho">Ok, but can it make money tho?</a>
+</li>
+</ul>
 <hr>
 <p><img loading="lazy" src="cover.png" alt=""  />
 </p>
 <hr>
-<h2 id="k-means-fuzzy-time-series-forecasting-km-fts">K-Means Fuzzy Time Series Forecasting (KM-FTS)</h2>
+<h1 id="k-means-fuzzy-time-series-forecasting-km-fts">K-Means Fuzzy Time Series Forecasting (KM-FTS)</h1>
 <p>The K-Means Fuzzy hybrid model consists of two (quite obvious) parts: (1) a <strong>K-Means clustering</strong> algorithm that identifies the positions of the centroids of the data distribution along the vertical axis and (2) a <strong>Fuzzy</strong> Time Series Forecasting model that utilizes a Fuzzy Inference Engine from dynamically generated triangular membership functions based on the positions of the centroids generated by the clustering algorithm.</p>
 <p>This implementation is largely derived from the C-Means Fuzzy Time Series Forecasting hybrid model introduced by Alyousifi, et. al. in their paper &ldquo;<a href="https://www.sciencedirect.com/science/article/pii/S0147651321009878" target="_blank">A new hybrid fuzzy time series model with an application to predict PM10 concentration</a>
 &rdquo;. C-Means Fuzzy or Fuzzy C-means is a clustering strategy that extends the traditional K-Means algorithm to accommodate fuzzy membership values. Unlike K-Means, where each data point belongs to only one cluster with a membership degree of 1, Fuzzy C-Means allows data points to belong to multiple clusters simultaneously with varying degrees of membership [8].</p>
@@ -188,7 +221,7 @@
 <p><em><p style="text-align:center; font-size: 16px"> C-Means Fuzzy Time Series Model Flowchart (Alyousifi, et. al. Implementation) (left) and My Implementation (right) </p></em></p>
 <p>Unlike most other traditional forecasting models, FTS-based models such as the hybrid model proposed by the reference study primarily models the non-stationary form of the input time-series data (shown by the lack of differencing step in Fig. 3). That means the model training itself accounts for the trend and seasonalities embedded within the series. While these kinds of models are definitely capable of producing forecasts with high performance and reliability, one known drawback of not using stationary data is that it limits the forecasting range of the model to only within the &ldquo;<a href="https://www.researchgate.net/figure/Universe-of-discourse-error-fuzzy-sets_fig1_221785971" target="_blank">Universe of discourse</a>
 &rdquo; to which the model was trained on.</p>
-<h3 id="data">Data</h3>
+<h2 id="the-data">The Data</h2>
 <p>The dataset that I used in this project is the <a href="https://finance.yahoo.com/quote/A17U.SI/?p=A17U.SI&amp;.tsrc=fin-srch" target="_blank">CapitaLand Ascendas Real Estate Investment Trust</a>
  (REIT) (A17U.SI) because the timeseries features a wide data range for training and testing (more than 15-years span with daily resolution), relatively stable trend, and noticeable seasonal artifacts. To load the dataset, the .csv file was downloaded directly from Yahoo! Finance, and imported using Pandas.</p>
 <p>The dataset features 6 value columns: Open, High, Low, Close, Adj Close and Volume. For this timeseries forecasting project, we are only concerned about the closing price of the trust. Using pandas, we can isolate this target column, and set the Date column as the index of the series. Converting the index into the standard DateTime format of Pandas, we see below that several NaN values appear.</p>
@@ -216,10 +249,13 @@
 </span></span></code></pre></div><p>However, the forecasting strategy implemented in this project, does not require the use of stationary data to perform excellently (although it does introduce notable limitations), as I&rsquo;ll be demonstrating and discussing in the later sections of this project.</p>
 <p><img loading="lazy" src="stationary.png" alt=""  />
 
-<em><p style="text-align:center; font-size: 16px"> Fig. 2. Stationary Form of the CapitaLand Ascendas REIT Trust closing price data</p></em></p>
+<em><p style="text-align:center; font-size: 16px"> Fig. 2. Stationary Form of the CapitaLand Ascendas REIT Trust closing price data</p></em> <br></p>
 <hr>
-<h3 id="generate-fuzzy-membership-functions">Generate Fuzzy Membership Functions</h3>
+<p><br> <br></p>
+<h2 id="step-1-k-means-km-to-generate-fuzzy-membership-functions">STEP 1: K-Means (KM) to generate Fuzzy Membership Functions</h2>
 <p>We begin by defining the model parameters&ndash;in this case, just one: n_partitions which also refers to the number of centroids that we expect the K-Means algorithm to generate.</p>
+<details>
+<summary>🔎 <i>Click to view code</i></summary>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#aaa;font-style:italic">## MODEL PARAMETERS</span>
 </span></span><span style="display:flex;"><span>n_partitions = <span style="color:#099">50</span> <span style="color:#aaa;font-style:italic"># OR the &#39;k&#39; in our k-means algorithm</span>
 </span></span><span style="display:flex;"><span>
@@ -231,7 +267,10 @@
 </span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># TRAIN-TEST SPLIT (Train on first 14 years, test on last 1 year)</span>
 </span></span><span style="display:flex;"><span>train = df.values.reshape(-<span style="color:#099">1</span>,)[:-n_days * <span style="color:#099">1</span>]
 </span></span><span style="display:flex;"><span>test = df.values.reshape(-<span style="color:#099">1</span>,)[-n_days * <span style="color:#099">1</span>:]
-</span></span></code></pre></div><p>Afterwards, the code below are simple helper functions for (1) implementing k-means clustering to find the centroid positions, and for (2) generating the set of fuzzy membership functions.</p>
+</span></span></code></pre></div></details> <br>
+<p>Afterwards, the code below are simple helper functions for (1) implementing k-means clustering to find the centroid positions, and for (2) generating the set of fuzzy membership functions.</p>
+<details>
+<summary>🔎 <i>Click to view code</i></summary>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># This allows us to package our membership functions into objects rather than storing the values directly in memory</span>
 </span></span><span style="display:flex;"><span><span style="color:#00a">class</span> <span style="color:#0a0;text-decoration:underline">fuzzymf</span>(<span style="color:#0aa">object</span>):
 </span></span><span style="display:flex;"><span>    <span style="color:#00a">def</span> __init__(self, Type, Parameters):
@@ -309,12 +348,15 @@
 </span></span><span style="display:flex;"><span>            mf[idx] = fuzzymf(Type = <span style="color:#a50">&#39;trimf&#39;</span>, Parameters = [centroids[idx-<span style="color:#099">1</span>], centroid, centroids[idx+<span style="color:#099">1</span>]])
 </span></span><span style="display:flex;"><span>            
 </span></span><span style="display:flex;"><span>    <span style="color:#00a">return</span> mf, (min_val, max_val), centroids
-</span></span></code></pre></div><p>Using the fuzzymf class, we can then generate a set of N triangular membership functions where N = n_partitions [3]. Each triangular membership function requires 3 positional parameters <code>[a,b,c]</code> that defines the position of the left triangle leg, the triangle apex, and the right triangle leg, respectively. In this implementation, the values of a, b, and c are generally defined as follows: <br></p>
+</span></span></code></pre></div></details> <br>
+<p>Using the fuzzymf class, we can then generate a set of N triangular membership functions where N = n_partitions [3]. Each triangular membership function requires 3 positional parameters <code>[a,b,c]</code> that defines the position of the left triangle leg, the triangle apex, and the right triangle leg, respectively. In this implementation, the values of a, b, and c are generally defined as follows: <br></p>
 <p><em>a</em> - centroid value of the previous membership function <br>
 <em>b</em> - centroid value of the current membership function <br>
 <em>c</em> - centroid value of the next membership function <br></p>
 <p>For the membership functions in the extremities of the set (i.e., the leftmost and rightmost membership functions), the <em>a</em> and <em>c</em> value is defined by a padding ratio parameter <code>PAD_RATIO</code> applied to the min and max values of the universe of discourse U, respectively.</p>
 <p>These centroid values are calculated using a 1-dimensional K-Means clustering algorithm that clusters the datapoints based on their distribution (histogram), the output of which is illustrated in Fig. 3.</p>
+<details>
+<summary>🔎 <i>Click to view code</i></summary>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># Generate Membership Functions using K-Means</span>
 </span></span><span style="display:flex;"><span>fuzzy_set, (min_val, max_val), centroids = span_learnmf(train, <span style="color:#a50">&#39;kmeans&#39;</span>, n_partitions=n_partitions)
@@ -326,11 +368,14 @@
 </span></span><span style="display:flex;"><span>plt.xlabel(<span style="color:#a50">&#39;Trust Value&#39;</span>)
 </span></span><span style="display:flex;"><span>plt.ylabel(<span style="color:#a50">&#39;Count&#39;</span>)
 </span></span><span style="display:flex;"><span>plt.show()
-</span></span></code></pre></div><p><img loading="lazy" src="fig3.png" alt=""  />
+</span></span></code></pre></div></details>
+<p><img loading="lazy" src="fig3.png" alt=""  />
 
 <em><p style="text-align:center; font-size: 16px"> Fig. 3. Datapoint Distribution and Calculated Centroid Positions</p></em></p>
 <p>Using the calculated centroids, we can then generate a set of membership functions, a snippet of which is illustrated in Fig. 4.</p>
 <p>From the figure shown, we can get an idea of how the K-Means clustering algorithm influences the distribution of membership centroid values. We can see how the membership values somehow cluster tightly in areas where the data distribution is high, and loosely in areas where the data distribution is low. This is the main strength of using a clustering algorithm like (1-dimensional) K-means is that it allows us to assign more centroids in areas where the concentration of data points is high. This allows us to increase the granularity of our inferencing system in areas where it is most needed.</p>
+<details>
+<summary>🔎 <i>Click to view code</i></summary>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># Plot Membership Functions</span>
 </span></span><span style="display:flex;"><span>fig, ax = plt.subplots(nrows=<span style="color:#099">1</span>, ncols=<span style="color:#099">1</span>, figsize=[<span style="color:#099">15</span>,<span style="color:#099">3</span>])
 </span></span><span style="display:flex;"><span><span style="color:#00a">for</span> i <span style="color:#00a">in</span> <span style="color:#0aa">range</span>(<span style="color:#0aa">len</span>(fuzzy_set)):
@@ -348,10 +393,13 @@
 </span></span><span style="display:flex;"><span>plt.show()
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>plt.tight_layout()
-</span></span></code></pre></div><p><img loading="lazy" src="fig4.png" alt=""  />
+</span></span></code></pre></div></details>
+<p><img loading="lazy" src="fig4.png" alt=""  />
 
 <em><p style="text-align:center; font-size: 16px"> Fig. 4. Triangle Membership Functions from K-Means Centroids \n (Zoomed in to the range of 1 to 2)</p></em></p>
 <p>We can plot all N membership functions on top of the original time series data to visualize how the membership functions interact with the original data that it is derived from, as shown in Fig. 5.</p>
+<details>
+<summary>🔎 <i>Click to view code</i></summary>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># Plot Generated Membership Functions</span>
 </span></span><span style="display:flex;"><span>x = np.linspace(min_val, max_val, (n_partitions+<span style="color:#099">1</span>)*<span style="color:#099">20</span>, endpoint = <span style="color:#00a">False</span>)
 </span></span><span style="display:flex;"><span>
@@ -369,12 +417,476 @@
 </span></span><span style="display:flex;"><span>    ax2.set_xlim([<span style="color:#099">0</span>,<span style="color:#099">10</span>])
 </span></span><span style="display:flex;"><span>    ax2.set_xticks([])
 </span></span><span style="display:flex;"><span>plt.show()
-</span></span></code></pre></div><p><img loading="lazy" src="fig5.png" alt=""  />
+</span></span></code></pre></div></details>
+<p><img loading="lazy" src="fig5.png" alt=""  />
 
-<em><p style="text-align:center; font-size: 16px"> Fig. 5. A17U.SI Time Series with the Kmeans-generated fuzzy membership functions</p></em></p>
-<p><strong><p style="text-align:center"> TO BE CONTINUED </p></strong></p>
+<em><p style="text-align:center; font-size: 16px"> Fig. 5. A17U.SI Time Series with the Kmeans-generated fuzzy membership functions</p></em> <br></p>
 <hr>
-<h5 id="citation">Citation</h5>
+<p><br> <br></p>
+<h2 id="step-2-fuzzy-time-series-fts-to-perform-forecasting">STEP 2: Fuzzy Time Series (FTS) to perform Forecasting</h2>
+<p>The primary forecasting model implemented in this project is a Fuzzy Time Series (FTS) forecasting model. The figure below shows the basic components of a Fuzzy Inference System. Specifically, a crisp input goes through a <em>fuzzification process</em> that converts it into its corresponding fuzzified variable, which then goes to a fuzzy inference engine. Based on a set of fuzzy rules, the inference engine outputs a new fuzzified variable that is then converted back to its crisp value via a <em>defuzzification process</em> [6]. I know, these &lsquo;fuzzy&rsquo; words are actually official terms!</p>
+<p align="center" width="100%">
+    <img width="75%" src="https://ars.els-cdn.com/content/image/1-s2.0-S0952197620300075-gr1.jpg">
+</p>
+<p><em><p style="text-align:center; font-size: 16px"> Fig. 6. Fuzzy Inference System Flowchart </p></em></p>
+<h3 id="fuzzification">Fuzzification</h3>
+<p>Fuzzification is the first step in Fuzzy Inference Systems (FIS) that involves converting crisp input data into <em>fuzzified variables</em>. In typical FIS, these fuzzified variables are often linguistic or qualitative in nature, and fuzzification allows for the representation of these inputs as fuzzy sets, which capture the inherent uncertainty and imprecision associated with natural language terms [6]. However, in Fuzzy Time Series, these fuzzified variables represent discrete data levels associated with the centroid of each fuzzy membership function [1]. <br></p>
+<p>For instance, if we only have <em>N</em> = 3 partitions, then the fuzzification process will generate a set of 3 fuzzified variables <code>[A1, A2, A3]</code> that could represent a linguistic interpretation equivalent to <code>'low'</code>, <code>'middle'</code>, and <code>'high'</code>. In essence, for a given crisp input (e.g. today&rsquo;s trust price), the fuzzification process may generate a corresponding fuzzy value of &lsquo;high,&rsquo; mapping today&rsquo;s actual value <code>(1.533860 -&gt; A3)</code>.</p>
+<p>Ofcourse, in the case of the actual implementation with <em>N</em> = 50 partitions, an equivalent linguistic interpretation for each fuzzy variable <em><code>A1, A2, ... , A50</code></em> may not be as easy to derive; however, I would argue that the logic and pattern behind this would stay the same.</p>
+<details>
+<summary>🔎 <i>Click to view code</i></summary>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#00a">def</span> <span style="color:#0a0">get_membership</span>(input_value, fuzzy_set=fuzzy_set, prefix=<span style="color:#a50">&#39;A&#39;</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#a50">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">    Generate the fuzzified variables A1, A2, ... AN corresponding to the given crisp input
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">    
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">    args:
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">        input_value - crisp input
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">        fuzzy_set - set of membership functions
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">        prefix - used to represent the fuzzy variable
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">        
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">    out:
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">        (linguistic variable (Ak), fuzzy variable index (k))
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">    &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    membership_keys = [key <span style="color:#00a">for</span> key, value <span style="color:#00a">in</span> fuzzy_set.items() <span style="color:#00a">if</span> value.Parameters[<span style="color:#099">0</span>] &lt; input_value &lt; value.Parameters[-<span style="color:#099">1</span>]]
+</span></span><span style="display:flex;"><span>    membership_vals = [evalmf(fuzzy_set[key], input_value)[<span style="color:#099">0</span>] <span style="color:#00a">for</span> key <span style="color:#00a">in</span> membership_keys]
+</span></span><span style="display:flex;"><span>    membership_index = membership_keys[np.argmax(membership_vals)]
+</span></span><span style="display:flex;"><span>    <span style="color:#00a">return</span> prefix+<span style="color:#0aa">str</span>(membership_index), membership_index
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># Use the get_membership function defined above to fuzzify the training data</span>
+</span></span><span style="display:flex;"><span>fuzzified_lv = []
+</span></span><span style="display:flex;"><span>fuzzified_val = []
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#00a">for</span> crisp_val <span style="color:#00a">in</span> train:
+</span></span><span style="display:flex;"><span>    ling_var, val = get_membership(crisp_val)
+</span></span><span style="display:flex;"><span>    fuzzified_lv.append(ling_var)
+</span></span><span style="display:flex;"><span>    fuzzified_val.append(val)
+</span></span></code></pre></div></details> <br>
+<p>After fuzzifying the crisp value of our training data, the next step to perform Fuzzy Time Series forecasting is to derive the uzzy relationships between the series of fuzzy variables generated from the previous steps. That is, we associate today&rsquo;s fuzzified variable (e.g. &lsquo;A2&rsquo;) with yesterday&rsquo;s fuzzified variable (e.g. &lsquo;A3&rsquo;), to build the fuzzy logical relationship <em>A3 -&gt; A2</em>. Doing this for the entire training data yields a series of fuzzy relationships shown in Table I.</p>
+<details>
+<summary>🔎 <i>Click to view code</i></summary>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#aaa;font-style:italic">## Fuzzy Logical Relationships (FLRs)</span>
+</span></span><span style="display:flex;"><span>fuzzified_lv_lag = fuzzified_lv[:-<span style="color:#099">1</span>]
+</span></span><span style="display:flex;"><span>fuzzified_lv_lead = fuzzified_lv[<span style="color:#099">1</span>:]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>fuzzified_lag = fuzzified_val[:-<span style="color:#099">1</span>]
+</span></span><span style="display:flex;"><span>fuzzified_lead = fuzzified_val[<span style="color:#099">1</span>:]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic">#pd.DataFrame([fuzzified_lv_lag, fuzzified_lv_lead], index=[&#39;lag&#39;, &#39;lead&#39;]).transpose()</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># FLR Index Values</span>
+</span></span><span style="display:flex;"><span>flr_vals = [(i,j) <span style="color:#00a">for</span> i,j <span style="color:#00a">in</span> <span style="color:#0aa">zip</span>(fuzzified_lag, fuzzified_lead)]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># Display Sequential FLR Linguistic Variables</span>
+</span></span><span style="display:flex;"><span>flr_lv = [i + <span style="color:#a50">&#39;-&gt;&#39;</span> + j <span style="color:#00a">for</span> i,j <span style="color:#00a">in</span> <span style="color:#0aa">zip</span>(fuzzified_lv_lag, fuzzified_lv_lead)]
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span>fuzzified_df = pd.concat([pd.Series(df.index)[:<span style="color:#099">15</span>], pd.Series(train[:<span style="color:#099">15</span>]), pd.Series(fuzzified_lv[:<span style="color:#099">15</span>]), pd.Series([<span style="color:#a50">&#39;-&#39;</span>] + flr_lv)[:<span style="color:#099">15</span>]], axis=<span style="color:#099">1</span>)
+</span></span><span style="display:flex;"><span>fuzzified_df.columns = [<span style="color:#a50">&#39;Date&#39;</span>, <span style="color:#a50">&#39;Trust Value&#39;</span>, <span style="color:#a50">&#39;Fuzzy Number&#39;</span>, <span style="color:#a50">&#39;Fuzzy Logical Relationship&#39;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic">#Add Table Title</span>
+</span></span><span style="display:flex;"><span>fig = plt.figure(figsize = (<span style="color:#099">8</span>, <span style="color:#099">.3</span>))
+</span></span><span style="display:flex;"><span>ax = fig.add_subplot(<span style="color:#099">111</span>)
+</span></span><span style="display:flex;"><span>ax.set_title(<span style="color:#a50">&#39;TABLE I. Output of the Fuzzification Process&#39;</span>, loc=<span style="color:#a50">&#39;left&#39;</span>)
+</span></span><span style="display:flex;"><span>ax.axis(<span style="color:#a50">&#39;off&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>fuzzified_df
+</span></span></code></pre></div></details>
+<p><img loading="lazy" src="tab1_fuzzification_table.png" alt=""  />
+</p>
+<h3 id="fuzzy-inference-engine">Fuzzy Inference Engine</h3>
+<p>The next step is to develop the Fuzzy Rules which will be the main input to our fuzzy inference engine. In the case of this project, the fuzzy rules are derived by grouping the fuzzy logical relationships into groups, which the reference study calls Fuzzy Logical Relationship Groups (FLRG), alongside the frequency associated with each fuzzy logical relationship [2].</p>
+<p>The output of the next cell shows the 50 different FLRGs (and their frequencies) derived from the FLRs generated by the Fuzzification process.</p>
+<details>
+<summary>🔎 <i>Click to view code</i></summary>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#aaa;font-style:italic">## Fuzzy Logical Relationship Groups (FLRGs)</span>
+</span></span><span style="display:flex;"><span>flrg_df = pd.DataFrame(flr_vals, columns=[<span style="color:#a50">&#39;lag&#39;</span>, <span style="color:#a50">&#39;lead&#39;</span>])
+</span></span><span style="display:flex;"><span>flrg_transitions = flrg_df.groupby([<span style="color:#a50">&#39;lag&#39;</span>, <span style="color:#a50">&#39;lead&#39;</span>])[<span style="color:#a50">&#39;lead&#39;</span>].count()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#0aa">print</span>(<span style="color:#a50">&#39;FTS Model:&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#00a">for</span> i <span style="color:#00a">in</span> <span style="color:#0aa">range</span>(n_partitions):
+</span></span><span style="display:flex;"><span>    <span style="color:#00a">try</span>:
+</span></span><span style="display:flex;"><span>        flrg_transition_leads = <span style="color:#0aa">list</span>(flrg_transitions[i].index)
+</span></span><span style="display:flex;"><span>        flrg_transition_counts = <span style="color:#0aa">list</span>(flrg_transitions[i].values)
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        transitions = [<span style="color:#a50">f</span><span style="color:#a50">&#39;A</span><span style="color:#a50">{</span>lead_idx<span style="color:#a50">}</span><span style="color:#a50">(</span><span style="color:#a50">{</span>flrg_transition_counts[j]<span style="color:#a50">}</span><span style="color:#a50">)&#39;</span> <span style="color:#00a">for</span> j, lead_idx <span style="color:#00a">in</span> <span style="color:#0aa">enumerate</span>(flrg_transition_leads)]
+</span></span><span style="display:flex;"><span>        <span style="color:#0aa">print</span>(<span style="color:#a50">f</span><span style="color:#a50">&#39;A</span><span style="color:#a50">{</span>i<span style="color:#a50">}</span><span style="color:#a50"> -&gt; </span><span style="color:#a50">{</span><span style="color:#a50">&#34; &#34;</span>.join(transitions)<span style="color:#a50">}</span><span style="color:#a50">&#39;</span>)
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>    <span style="color:#00a">except</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#00a">pass</span>
+</span></span></code></pre></div></details>
+<p><img loading="lazy" src="fig7_flrg.png" alt=""  />
+
+<em><p style="text-align:center; font-size: 16px"> Fig. 7. Fuzzy Relationship Groups </p></em></p>
+<p>We can interpret the FLRGs like a markov chain. For instance, the FLRG: <br> <br>
+<code>A11 -&gt; A9(1) A10(14) A11(67) A12(19)</code> <br> <br></p>
+<p>Is equivalent to a markov state transition with <br> <br> <code>(previous state) -&gt; (next state) (transition weight)</code> <br> <br>
+A<sub>11</sub> -&gt; A<sub>9</sub> (weight of 1) <br>
+A<sub>11</sub> -&gt; A<sub>10</sub> (weight of 14) <br>
+A<sub>11</sub> -&gt; A<sub>11</sub> (weight of 67) <br>
+A<sub>11</sub> -&gt; A<sub>12</sub> (weight of 19) <br> <br></p>
+<p>Normalizing these weights effectively gives us the probability that the fuzzy variable of the next time step is <em>A<sub>k</sub></em> given that the fuzzy variable of  the current time step is <em>A<sub>11</sub></em>, where k = 9, &hellip;, 12. <br></p>
+<p>We can then represent these transition probabilities across all 50 FLRGs through an <em>N</em>x<em>N</em> markov probability matrix $P$ where the rows represent the previous fuzzy state and the columns represent the next fuzzy state. Each cell within this matrix therefore indicates the probability <em>p</em> that the next state is <em>s_col</em> given that the previous state is <em>s_row</em> [2]. Table II shows a (10x10) snippet of the markov transition probability matrix calculated from the 50 FLRGs above. This transition probability matrix, taking in a fuzzified variable as an input and producing a new fuzzified variable as an ouput, effectively represents our fuzzy rule-base and is therefore at the heart of our fuzzy inference engine.</p>
+<details>
+<summary>🔎 <i>Click to view code</i></summary>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#aaa;font-style:italic">## Calculate Transition Count Matrix</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># Identify unique states</span>
+</span></span><span style="display:flex;"><span>states = <span style="color:#0aa">list</span>(np.arange(n_partitions))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># Create a default dictionary to hold markers</span>
+</span></span><span style="display:flex;"><span>transition_markers = defaultdict(<span style="color:#0aa">int</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># Traverse the list and add marker in the dictionary</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a">for</span> (i,j) <span style="color:#00a">in</span> flr_vals:
+</span></span><span style="display:flex;"><span>    transition_markers[(i,j)] = flrg_transitions[i, j]
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># Create an empty matrix of size n x n</span>
+</span></span><span style="display:flex;"><span>n = <span style="color:#0aa">len</span>(states)
+</span></span><span style="display:flex;"><span>transition_matrix = np.zeros((n,n))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># Fill the transition matrix with markers from the dictionary</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a">for</span> key, val <span style="color:#00a">in</span> transition_markers.items():
+</span></span><span style="display:flex;"><span>    i, j = key
+</span></span><span style="display:flex;"><span>    transition_matrix[i][j] = val
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>probability_matrix = transition_matrix/transition_matrix.sum(axis=<span style="color:#099">1</span>).reshape(-<span style="color:#099">1</span>,<span style="color:#099">1</span>)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>state_names = [<span style="color:#a50">&#39;A&#39;</span>+<span style="color:#0aa">str</span>(i) <span style="color:#00a">for</span> i <span style="color:#00a">in</span> states]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># Add Table Title</span>
+</span></span><span style="display:flex;"><span>fig = plt.figure(figsize = (<span style="color:#099">8</span>, <span style="color:#099">.3</span>))
+</span></span><span style="display:flex;"><span>ax = fig.add_subplot(<span style="color:#099">111</span>)
+</span></span><span style="display:flex;"><span>ax.set_title(<span style="color:#a50">&#39;TABLE II. Markov Transition Probability Matrix (First 10 Fuzzy States)&#39;</span>, loc=<span style="color:#a50">&#39;left&#39;</span>)
+</span></span><span style="display:flex;"><span>ax.axis(<span style="color:#a50">&#39;off&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>pd.DataFrame(probability_matrix, columns=state_names, index=state_names).iloc[:<span style="color:#099">10</span>, :<span style="color:#099">10</span>]
+</span></span></code></pre></div></details>
+<p><img loading="lazy" src="tab2_markov.png" alt=""  />
+</p>
+<h3 id="defuzzification">Defuzzification</h3>
+<p>Defuzzification, i.e. to converting the generated fuzzy variables generated by our fuzzy inference engine back to its corresponding crisp value (a.k.a the point forecast for time step <em>t+1</em>), can be performed using the following equation, which is my modified (and simplified) version of the original formula proposed by Alyousifi, et. al. The logic behind my revision of the original implementation is to remove any potential data leakage from feeding the actual observed value into the inference engine through $\mathbf{ĉ}$.</p>
+<center> Alyousifi's Original Implementation [2]: </center>
+<p>$$ F(t+1) = \mathbf{ĉ} ⋅ \mathbf{p_t} + D(F(t))$$</p>
+<br>
+<center> My Implementation: </center>
+<p>$$ F(t+1) = \mathbf{c} ⋅ \mathbf{p_t} + γ D(F(t))$$</p>
+<p>where</p>
+<ul>
+<li>$\mathbf{c}$ is the vector of centroid values generated from the K-Means clustering process</li>
+<li>$\mathbf{ĉ}$ is $\mathbf{c}$ but the centroid value at position <em>k</em> corresponding to the fuzzy variable <em>Ak</em> is replaced with $F(t)$ or the original crisp value for time step t.</li>
+<li>$\mathbf{p_t}$ is the probability vector corresponding to a row in the markov transition probability matrix $P$, given the fuzzy variable <em>Ak</em> for the current time step</li>
+<li>$D(F(t))$ is the first order differencing of the actual values at time step <em>t</em></li>
+<li>γ is the discount factor that controls the degree on which the differencing influences the final forecast.</li>
+</ul>
+<details>
+<summary>🔎 <i>Click to view code</i></summary>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># DEFUZZIFICATION</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a">def</span> <span style="color:#0a0">get_point_forecast</span>(point_value, centroids, probability_matrix):
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#a50">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">    Calculates the (un-adjusted) point forecast for time step t+1
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">    
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">    args:
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">        point_value - crisp value for time step t
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">        centroids - vector of centroids from the K-Means clustering
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">        probability_matrix - markov transition probability matrix
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">    
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">    out:
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">        point_forecast - forecast for time step t+1
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">    &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#aaa;font-style:italic"># Fuzzification</span>
+</span></span><span style="display:flex;"><span>    fz_lv, fz_val = get_membership(point_value)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#aaa;font-style:italic"># Isolate vector p</span>
+</span></span><span style="display:flex;"><span>    probabilities = probability_matrix[fz_val, :].copy()
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#aaa;font-style:italic"># c ⋅ p </span>
+</span></span><span style="display:flex;"><span>    dfz_centroids = centroids *probabilities
+</span></span><span style="display:flex;"><span>    dfz_centroids = dfz_centroids[dfz_centroids!=<span style="color:#099">0</span>]
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    point_forecast = np.sum(dfz_centroids)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#00a">return</span> point_forecast
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#00a">def</span> <span style="color:#0a0">predict</span>(data, discount_factor = <span style="color:#099">0.33</span>):
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#a50">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">    Generate rolling forecast
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">    
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">    args:
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">        data - input data
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">        discount_factor - degree of influence of differencing
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">    out:
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">        complete forecast
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">    &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    raw_forecasts = pd.Series(data).apply(<span style="color:#00a">lambda</span> x: get_point_forecast(x, centroids, probability_matrix)).values.reshape(-<span style="color:#099">1</span>,)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#aaa;font-style:italic"># Calculate the discounted first order differencing adjustment value</span>
+</span></span><span style="display:flex;"><span>    first_diff = pd.Series(data).diff()[<span style="color:#099">1</span>:].reset_index(drop=<span style="color:#00a">True</span>) * discount_factor
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#00a">return</span> raw_forecasts[<span style="color:#099">1</span>:] + first_diff
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span>empty_train = np.empty(<span style="color:#0aa">len</span>(train[-<span style="color:#099">365</span>:]))
+</span></span><span style="display:flex;"><span>empty_train[:] = np.nan
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># Generate forecast for input series starting from the last training data point</span>
+</span></span><span style="display:flex;"><span>forecasts = predict(np.insert(test, <span style="color:#099">0</span>, train[-<span style="color:#099">1</span>])) 
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>fig, ax = plt.subplots(nrows=<span style="color:#099">1</span>, ncols=<span style="color:#099">1</span>, figsize=[<span style="color:#099">15</span>,<span style="color:#099">5</span>])
+</span></span><span style="display:flex;"><span>tr, = plt.plot(train[-<span style="color:#099">365</span>:], label=<span style="color:#a50">&#34;Train Data (final year)&#34;</span>)
+</span></span><span style="display:flex;"><span>orig, = plt.plot(np.concatenate((empty_train, test)), color=<span style="color:#a50">&#39;k&#39;</span>, label=<span style="color:#a50">&#34;Original data&#34;</span>,)
+</span></span><span style="display:flex;"><span>pred, = plt.plot(np.concatenate((empty_train, forecasts)), label=<span style="color:#a50">&#34;Forecasts&#34;</span>, color=<span style="color:#a50">&#39;r&#39;</span>, linestyle=<span style="color:#a50">&#39;--&#39;</span>)
+</span></span><span style="display:flex;"><span>plt.title(<span style="color:#a50">&#39;Fig. 8. Forecast Values generated by the KM-FTS model&#39;</span>)
+</span></span><span style="display:flex;"><span>plt.xlabel(<span style="color:#a50">&#39;Day&#39;</span>)
+</span></span><span style="display:flex;"><span>plt.ylabel(<span style="color:#a50">&#39;Trust Value&#39;</span>)
+</span></span><span style="display:flex;"><span>plt.legend(handles=[tr, orig, pred])
+</span></span><span style="display:flex;"><span>plt.show()
+</span></span></code></pre></div></details>
+<p><img loading="lazy" src="fig7_results.png" alt=""  />
+
+<em><p style="text-align:center; font-size: 16px"> Fig. 8. Forecast Values generated by the KM-FTS model </p></em> <br></p>
+<hr>
+<p><br> <br></p>
+<h2 id="benchmarks">Benchmarks</h2>
+<p>Fig. 8. shows the complete forecast generated by our KM-FTS model implementation with 50 partitions. We can see that the forecast was able to capture general trend and seasonal behavior of the actual test series. Evaluating the predictive performance of a forecasting model is important in pinpointing the best model for a forecasting task. Several statistical techniques can be used to perform model evaluation. This project utilizes four statistical metrics to measure the forecasting accuracy of our KM-FTS model, namely, Mean Absolute Percentage Error (MAPE), Root Mean Square Error (RMSE), Thiels&rsquo; U-statistics, and R-squared, the formulas of which is shown below:</p>
+<p align="center" width="100%">
+    <img width="60%" src="benchmarks.png">
+</p>
+<p>The generated hybrid KM-FTS model is then benchmarked across these 4 evaluation metrics against several models, namely:</p>
+<ul>
+<li>BASE-RW: Base random walk model (today&rsquo;s price is tomorrow&rsquo;s price)</li>
+<li>GRID-FTS25, GRID-FTS50, GRID-FTS100: Standard FTS model with 25, 50, and 100 partitions respectively. No K-Means clustering method was used to find the best positions of membership function centroids. Instead, the partitioning is set to be evenly distributed across the universe of discourse <em>U</em>.</li>
+<li>Decision Tree: Decision Tree regressor with <strong>4-fold cross validation</strong></li>
+<li>LGBM: Light Gradient Boosting Model with <strong>4-fold cross validation</strong></li>
+</ul>
+<p><em>Since RandomWalk and GRID-FTS are deterministic models, no n-fold cross validation is required.</em>
+<br></p>
+<h3 id="benchmark-results">Benchmark Results</h3>
+<p>As demonstrated in Table III, the hybrid KM-FTS model yields the best forecasting performance, generally surpassing the other models, according to the selected statistical benchmarks. Our KM-FTS model produced the lowest Root Mean Square Error (RMSE) and Mean Absolute Percentage Error (MAPE), and the highest R-squared value across all other models; only being out-performed by the GRID-FTS100 model in the Theil&rsquo;s U-statistic by a close margin.</p>
+<p>From here, it is clear that hybridizing the standard FTS model with a K-Means clustering algorithm to select the optimal centroid positions of our membership functions produces a forecasting model with outstanding performance. So-much-so that our hybrid model with only 50 partitions was able to generally out-perform even the standard FTS model with 100 partitions. I would say this is because through the K-Means clustering method, we are able to identify areas of high and low concentration of values, and are thus able to allocate more membership functions to more finely disaggregate the trend into a series of fuzzy logical relationships. This was fully demonstrated in Fig. 5 earlier. In contrast, a uniform partitioning method implemented in standard FTS models will evenly allocate partitions, even in areas within our universe of discourse where data points are sparse, hence, producing more weakly associated fuzzy logical relationships.</p>
+<p>However, my KM-FTS implementation, largely derived from the original CM-FTS model introduced by Alyousifi, et. al., does not come without drawbacks. By design the model was trained directly on non-stationary data. This is important for the model to work since the core working logic behind Fuzzy Time Series forecasting is the mapping of Fuzzy Logical Relationships (FLRs) across the universe of discourse. By converting the time series data into stationary through first (or even second) order differencing, we effectively remove the trend of the series that enables fuzzification [2]. In effect, while the KM-FTS model (or any FTS-based model trained on non-stationary data for that matter) works excellently in the provided data, it has no forecasting capability outside the universe of discourse on which it was trained on. This model would be rendered useless, for instance, on time series data with high variance and unpredictability (such as volatile stocks). However, I would argue that since we are mainly concerned of forecasting trusts, which are relatively stable, it may then be possible for us to find effective use of the model in this domain.</p>
+<p><img loading="lazy" src="fig9.png" alt=""  />
+
+<em><p style="text-align:center; font-size: 16px"> Fig. 9. Benchmark Results </p></em></p>
+<p><img loading="lazy" src="tab3_benchmark_results.png" alt=""  />
+</p>
+<br>
+<h3 id="ok-but-can-it-make-money-tho">Ok, but can it make money tho?</h3>
+<p>Finally, the ultimate question for any model that attempts to forecast stock/trust values is: can we make money? In order to simulate this, we first need to generate buy and sell signals from the forecasted series. Here, we define the exponential moving average (EMA) as follows:</p>
+<p>$$EMA_t = \alpha * P_t + (1 - \alpha) * EMA_{t-1}$$</p>
+<p>where:;</p>
+<ul>
+<li>$P_t$ is the price of the asset at time $t$</li>
+<li>$EMA_t$ is the exponential moving average at time $t$</li>
+<li>$\alpha$ is the smoothing factor, which determines the weight given to the most recent price. It is calculated as follows:</li>
+</ul>
+<p>$$\alpha = \frac{2}{n+1}$$</p>
+<p>where $n$ is the number of periods in the moving average [7].</p>
+<p>Particularly in the finance domain, the $n$ parameter defines the number of days on which we perform EMA; (e.g. 128-day EMA for EMA with $n$ = 128)</p>
+<p>By using two exponential moving average (EMA) models, one <em>slow</em> and one <em>fast</em> (where a slow EMA has a higher $n$ value than a fast EMA), we can define a <em>buy</em> signal whenever the slow EMA crosses below the fast ema, and a <em>sell</em> signal whenever the slow EMA crosses above the fast EMA, as shown in Fig. 10.</p>
+<details>
+<summary>🔎 <i>Click to view code</i></summary>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># EMA</span>
+</span></span><span style="display:flex;"><span>fast_ema = pd.Series(forecasts).ewm(span = <span style="color:#099">12</span>).mean().values.reshape(-<span style="color:#099">1</span>,)
+</span></span><span style="display:flex;"><span>slow_ema = pd.Series(forecasts).ewm(span = <span style="color:#099">132</span>).mean().values.reshape(-<span style="color:#099">1</span>,)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># Calculate signals and positions</span>
+</span></span><span style="display:flex;"><span>signal = np.where(slow_ema &gt; fast_ema, <span style="color:#099">1.0</span>, <span style="color:#099">0</span>)
+</span></span><span style="display:flex;"><span>position = pd.Series(signal).diff().values.reshape(-<span style="color:#099">1</span>,)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># The positions derived from the forecasts will be measured against the actual market movement</span>
+</span></span><span style="display:flex;"><span>trade_positions_series = test * position
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># Drop NaN entries</span>
+</span></span><span style="display:flex;"><span>trade_positions = trade_positions_series[~np.isnan(trade_positions_series)]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># Drop zeros</span>
+</span></span><span style="display:flex;"><span>trade_positions = trade_positions[trade_positions != <span style="color:#099">0</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># Isolate buy and sell positions</span>
+</span></span><span style="display:flex;"><span>buy_positions = trade_positions[trade_positions &gt; <span style="color:#099">0</span>]
+</span></span><span style="display:flex;"><span>sell_positions = trade_positions[trade_positions &lt; <span style="color:#099">0</span>]
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># Plot Result </span>
+</span></span><span style="display:flex;"><span>fig, ax = plt.subplots(nrows=<span style="color:#099">1</span>, ncols=<span style="color:#099">1</span>, figsize=[<span style="color:#099">15</span>,<span style="color:#099">5</span>])
+</span></span><span style="display:flex;"><span>ax.plot(forecasts, label=<span style="color:#a50">&#34;Forecasts&#34;</span>, color=<span style="color:#a50">&#39;r&#39;</span>)
+</span></span><span style="display:flex;"><span>ax.plot(fast_ema, <span style="color:#a50">&#39;k--&#39;</span>)
+</span></span><span style="display:flex;"><span>ax.plot(slow_ema, <span style="color:#a50">&#39;b--&#39;</span>)
+</span></span><span style="display:flex;"><span>ax.set_ylim([<span style="color:#0aa">min</span>(forecasts) - (<span style="color:#0aa">min</span>(forecasts) * <span style="color:#099">0.15</span>), <span style="color:#0aa">max</span>(forecasts)*<span style="color:#099">1.01</span>])
+</span></span><span style="display:flex;"><span>ax.legend([<span style="color:#a50">&#39;forecasted&#39;</span>, <span style="color:#a50">&#39;fast ema&#39;</span>, <span style="color:#a50">&#39;slow ema&#39;</span>])
+</span></span><span style="display:flex;"><span>ax.set_xlabel(<span style="color:#a50">&#39;Day&#39;</span>)
+</span></span><span style="display:flex;"><span>ax.set_ylabel(<span style="color:#a50">&#39;Trust Value&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>ax2 = ax.twinx()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>ax2.plot(signal)
+</span></span><span style="display:flex;"><span>ax2.set_ylim([-<span style="color:#099">0.1</span>,<span style="color:#099">5</span>])
+</span></span><span style="display:flex;"><span>ax2.set_yticks([])
+</span></span><span style="display:flex;"><span>ax2.legend([<span style="color:#a50">&#39;Buy (high to low) </span><span style="color:#a50">\n</span><span style="color:#a50"> Sell (low to high)&#39;</span>], loc=<span style="color:#099">4</span>)
+</span></span><span style="display:flex;"><span>plt.title(<span style="color:#a50">&#39;Fig. 10. Calculating Buy and Sell Signals&#39;</span>)
+</span></span><span style="display:flex;"><span>plt.show()
+</span></span></code></pre></div></details>
+<p><img loading="lazy" src="fig10_money_make.png" alt=""  />
+
+<em><p style="text-align:center; font-size: 16px"> Fig. 10. Calculating Buy and Sell Signals </p></em></p>
+<p>We can further optimize our trading strategy by doing a simple grid search across many different combinations of slow and fast EMA $n$ values. Here, I tested for period values from 6 days to 300 days in increments of 3.</p>
+<details>
+<summary>🔎 <i>Click to view code</i></summary>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># Optimize Moving Average Parameters</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a">def</span> <span style="color:#0a0">get_trade_positions_ema</span>(fast_span, slow_span, forecast_series=forecasts):
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#a50">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">    Use fast and slow ema to generate buy and sell positions
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">    &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    fast_ema = pd.Series(forecast_series).ewm(span = fast_span).mean().values.reshape(-<span style="color:#099">1</span>,)
+</span></span><span style="display:flex;"><span>    slow_ema = pd.Series(forecast_series).ewm(span = slow_span).mean().values.reshape(-<span style="color:#099">1</span>,)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    signal = np.where(slow_ema &gt; fast_ema, <span style="color:#099">1.0</span>, <span style="color:#099">0</span>)
+</span></span><span style="display:flex;"><span>    position = pd.Series(signal).diff().values.reshape(-<span style="color:#099">1</span>,)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#aaa;font-style:italic"># The positions derived from the forecasts will be measured against the actual market movement</span>
+</span></span><span style="display:flex;"><span>    trade_positions_series = test * position
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#aaa;font-style:italic"># Drop NaN entries</span>
+</span></span><span style="display:flex;"><span>    trade_positions = trade_positions_series[~np.isnan(trade_positions_series)]
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#aaa;font-style:italic"># Drop zeros</span>
+</span></span><span style="display:flex;"><span>    trade_positions = trade_positions[trade_positions != <span style="color:#099">0</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#aaa;font-style:italic"># Isolate buy and sell positions</span>
+</span></span><span style="display:flex;"><span>    buy_positions = trade_positions[trade_positions &gt; <span style="color:#099">0</span>]
+</span></span><span style="display:flex;"><span>    sell_positions = trade_positions[trade_positions &lt; <span style="color:#099">0</span>]
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#00a">return</span> buy_positions, sell_positions, trade_positions_series
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#00a">def</span> <span style="color:#0a0">simulate_trade</span>(starting_value, buy_positions, sell_positions):
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#a50">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">    Simulate trade steps
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">    &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    asset_value = [starting_value]
+</span></span><span style="display:flex;"><span>    <span style="color:#00a">for</span> i <span style="color:#00a">in</span> <span style="color:#0aa">range</span>(<span style="color:#0aa">len</span>(sell_positions)):
+</span></span><span style="display:flex;"><span>        asset_value.append((asset_value[i] / buy_positions[i]) * (-<span style="color:#099">1</span> * sell_positions[i]))
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>    <span style="color:#00a">return</span> asset_value
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#00a">def</span> <span style="color:#0a0">get_best_params</span>(forecast_series):
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#a50">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">    Get the best-performing fast and slow EMA parameters
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">    &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    span_vals = <span style="color:#0aa">list</span>(np.arange(<span style="color:#099">6</span>, <span style="color:#099">300</span>, <span style="color:#099">3</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    net_profit = <span style="color:#099">0</span>
+</span></span><span style="display:flex;"><span>    best_params = []
+</span></span><span style="display:flex;"><span>    <span style="color:#00a">for</span> fast_span <span style="color:#00a">in</span> span_vals:
+</span></span><span style="display:flex;"><span>        <span style="color:#00a">for</span> slow_span <span style="color:#00a">in</span> span_vals:
+</span></span><span style="display:flex;"><span>            buy_positions, sell_positions, _ = get_trade_positions_ema(fast_span, slow_span, forecast_series)
+</span></span><span style="display:flex;"><span>            asset_value = simulate_trade(<span style="color:#099">1000</span>, buy_positions, sell_positions)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#00a">if</span> asset_value[-<span style="color:#099">1</span>] - asset_value[<span style="color:#099">0</span>] &gt; net_profit:
+</span></span><span style="display:flex;"><span>                net_profit = asset_value[-<span style="color:#099">1</span>] - asset_value[<span style="color:#099">0</span>]
+</span></span><span style="display:flex;"><span>                best_params = [fast_span, slow_span]
+</span></span><span style="display:flex;"><span>                <span style="color:#aaa;font-style:italic">#print(f&#39;Better Position found at {fast_span}-day EMA and {slow_span}-day EMA. \n Generated Profit: {net_profit}&#39;)</span>
+</span></span><span style="display:flex;"><span>                
+</span></span><span style="display:flex;"><span>    <span style="color:#00a">return</span> best_params[<span style="color:#099">0</span>], best_params[<span style="color:#099">1</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#00a">def</span> <span style="color:#0a0">calc_profit_trend</span>(forecast_series, trade_positions_series, wallet = <span style="color:#099">1000</span>):
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#a50">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">    Calculate profit trend across the timeline of the series
+</span></span></span><span style="display:flex;"><span><span style="color:#a50">    &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    n_shares = <span style="color:#099">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    total_assets = [wallet]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#00a">for</span> i, pos <span style="color:#00a">in</span> <span style="color:#0aa">enumerate</span>(trade_positions_series):
+</span></span><span style="display:flex;"><span>        <span style="color:#00a">if</span> <span style="color:#00a">not</span> np.isnan(pos):
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>            <span style="color:#aaa;font-style:italic"># No signal</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#00a">if</span> pos == <span style="color:#099">0</span>:
+</span></span><span style="display:flex;"><span>                curr_asset_value = n_shares * forecast_series[i] + wallet
+</span></span><span style="display:flex;"><span>                total_assets.append(curr_asset_value)
+</span></span><span style="display:flex;"><span>                
+</span></span><span style="display:flex;"><span>            <span style="color:#aaa;font-style:italic"># Buy Signal = Buy all</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#00a">if</span> pos &gt; <span style="color:#099">0</span>:
+</span></span><span style="display:flex;"><span>                n_shares = wallet / forecast_series[i]
+</span></span><span style="display:flex;"><span>                wallet = <span style="color:#099">0</span>
+</span></span><span style="display:flex;"><span>                curr_asset_value = n_shares * forecast_series[i] + wallet
+</span></span><span style="display:flex;"><span>                total_assets.append(curr_asset_value)
+</span></span><span style="display:flex;"><span>                
+</span></span><span style="display:flex;"><span>            <span style="color:#aaa;font-style:italic"># Sell Signal = Sell all</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#00a">if</span> pos &lt; <span style="color:#099">0</span>:
+</span></span><span style="display:flex;"><span>                wallet = n_shares * forecast_series[i]
+</span></span><span style="display:flex;"><span>                n_shares = <span style="color:#099">0</span>
+</span></span><span style="display:flex;"><span>                curr_asset_value = n_shares * forecast_series[i] + wallet
+</span></span><span style="display:flex;"><span>                total_assets.append(curr_asset_value)
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>    <span style="color:#00a">return</span> total_assets
+</span></span></code></pre></div></details> <br>
+<p>Simulating trade with a starting asset value of SG$ 1000 at the start of the year, with an all-in strategy of buying and selling ALL our current asset/shares following the generated buy and sell signals, we get the following profit/loss:</p>
+<details>
+<summary>🔎 <i>Click to view code</i></summary>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span>profit_trends = []
+</span></span><span style="display:flex;"><span>starting_money = <span style="color:#099">1000</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#00a">for</span> forecast <span style="color:#00a">in</span> [forecasts] + benchmark_model_preds[:-<span style="color:#099">1</span>]:
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    fast_span, slow_span = get_best_params(forecast)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    _, _, trade_positions_series = get_trade_positions_ema(fast_span, slow_span, forecast)
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    profit_trends.append(calc_profit_trend(forecast, trade_positions_series, wallet = starting_money))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>fig, ax = plt.subplots(nrows=<span style="color:#099">1</span>, ncols=<span style="color:#099">1</span>, figsize=[<span style="color:#099">15</span>, <span style="color:#099">5</span>])
+</span></span><span style="display:flex;"><span><span style="color:#00a">for</span> i, predictions <span style="color:#00a">in</span> <span style="color:#0aa">enumerate</span>(profit_trends):
+</span></span><span style="display:flex;"><span>    <span style="color:#00a">if</span> i == <span style="color:#099">0</span>:
+</span></span><span style="display:flex;"><span>        ax.plot(predictions, color = <span style="color:#a50">&#39;k&#39;</span>, marker=<span style="color:#a50">&#39;^&#39;</span>, markevery=<span style="color:#099">28</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#00a">else</span>:
+</span></span><span style="display:flex;"><span>        ax.plot(predictions, linestyle=<span style="color:#a50">&#39;--&#39;</span>, marker=<span style="color:#a50">&#39;^&#39;</span>, markevery=<span style="color:#099">28</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># Place the legend with 4 columns and 2 rows</span>
+</span></span><span style="display:flex;"><span>plt.legend([<span style="color:#a50">&#39;OURS: KM-FTS50&#39;</span>] + benchmark_model_names[:-<span style="color:#099">1</span>], bbox_to_anchor=(<span style="color:#099">0.5</span>, -<span style="color:#099">0.2</span>), loc=<span style="color:#a50">&#39;upper center&#39;</span>, ncol=<span style="color:#099">4</span>)
+</span></span><span style="display:flex;"><span>plt.xlabel(<span style="color:#a50">&#39;Day&#39;</span>)
+</span></span><span style="display:flex;"><span>plt.ylabel(<span style="color:#a50">&#39;Asset Value&#39;</span>)
+</span></span><span style="display:flex;"><span>plt.title(<span style="color:#a50">&#39;Fig. 11. Asset Value Curve&#39;</span>)
+</span></span><span style="display:flex;"><span>plt.show()
+</span></span></code></pre></div></details>
+<p><img loading="lazy" src="fig11.png" alt=""  />
+
+<em><p style="text-align:center; font-size: 16px"> Fig. 11. Asset Value Curve </p></em></p>
+<p>We can then calculate the simulated net profit.</p>
+<details>
+<summary>🔎 <i>Click to view code</i></summary>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Python" data-lang="Python"><span style="display:flex;"><span>net_profit = np.array(profit_trends)[:, -<span style="color:#099">1</span>] - starting_money
+</span></span><span style="display:flex;"><span>PNL = np.round(net_profit/starting_money * <span style="color:#099">100</span>, <span style="color:#099">2</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>profit_df = pd.DataFrame([net_profit, PNL]).transpose()
+</span></span><span style="display:flex;"><span>profit_df.columns = [<span style="color:#a50">&#39;Net Profit&#39;</span>, <span style="color:#a50">&#39;P/L %&#39;</span>]
+</span></span><span style="display:flex;"><span>profit_df.index = [<span style="color:#a50">&#39;OURS: KM-FTS50&#39;</span>] + benchmark_model_names[:-<span style="color:#099">1</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic"># Add Table Title</span>
+</span></span><span style="display:flex;"><span>fig = plt.figure(figsize = (<span style="color:#099">8</span>, <span style="color:#099">.3</span>))
+</span></span><span style="display:flex;"><span>ax = fig.add_subplot(<span style="color:#099">111</span>)
+</span></span><span style="display:flex;"><span>ax.set_title(<span style="color:#a50">&#39;TABLE IV. Profit Benchmark&#39;</span>, loc=<span style="color:#a50">&#39;left&#39;</span>)
+</span></span><span style="display:flex;"><span>ax.axis(<span style="color:#a50">&#39;off&#39;</span>)
+</span></span><span style="display:flex;"><span>profit_df
+</span></span></code></pre></div></details>
+<p><img loading="lazy" src="tab4.png" alt=""  />
+ <br></p>
+<hr>
+<p><br> <br></p>
+<h2 id="easy-money--or-is-it">Easy Money! &hellip; or is it?</h2>
+<p>In this project, we developed a hybrid forecasting model combining K-Means clustering and Fuzzy Time Series, using Python and standard libraries. Initially, we generated centroids by applying 1-dimensional K-Means clustering to the vertical axis of our training data. Subsequently, we created triangular fuzzy membership functions based on these centroids.</p>
+<p>The model operates in three stages: Fuzzification, Fuzzy Inference, and Defuzzification. For the fuzzification stage, each crisp input—such as the trust value at time t—is transformed into a fuzzified variable, A<sub>k</sub>, effectively discretizing the continuous data.</p>
+<p>The core of our model is a fuzzy inference engine, which relies on a Markov transition probability matrix to produce forecasts in the fuzzy domain. These forecasts are then converted back to precise values using a simplified version of a formula from Alyousifi et al. We evaluated our model&rsquo;s performance using four statistical metrics (RMSE, MAPE, Theil’s U, and R2) and two profitability metrics (net profit and P/L), comparing it against six other models. Our model, with its 50 centroids, consistently outperformed the others, notably a GRID-FTS model with 100 partitions.</p>
+<p>We can see that we&rsquo;re able to generate the most profit of <span style='color:#4CAF50'><strong>SG$ 509.80</strong></span> corresponding to a profit margin of 50.98% across 1 year, again, outperforming the other models in our benchmarks. Surprisingly, GRID-FTS50, a model that was not able to beat the random walk model in the statistical benchmarks shown in Table III, now beats random walk in the profit benchmark by a considerable margin of 26.98% vs 18.37%, respectively. This goes to show that trading strategy is just as crucial as time-series forecasting in building a robust trading model.</p>
+<p>Easy money! &hellip; or is it? <br></p>
+<p>Of course, it is not all sunshine and rainbows. It’s important to note that while the model showed promising results in simulations, forecasting models typically do not perform as well in real-world scenarios. <strong>Machine learning models often struggle to consistently outperform stock indices over extended periods</strong>. The KM-FTS model, tailored specifically for the dataset (A17U.SI) and its particular range, while not utilizing stationary data as input, will likely fail to generalize well to other datasets or conditions. Future works can explore other models or transformations to generate fuzzy membership functions from stationary time series data.</p>
+<p>Still, this project is a good illustration of how we can leverage even obscure machine learning principles and AI algorithms to analyze data and produce interesting results. Ultimately, it remains the trader&rsquo;s responsibility to discern the right moments to buy or sell based on these insights as guiding principles, not automated tools to make <em>easy money</em>.</p>
+<p>If you made it this far, wow, I appreciate you very much.</p>
+<h6 id="this-report-and-all-the-code-presented-is-written-by-the-author-unless-otherwise-statedcited">This report and all the code presented is written by the author, unless otherwise stated/cited.</h6>
+<hr>
+<h5 id="references">References</h5>
 <p>[1] Y. Alyousifi, M. Othman and A. A. Almohammedi, &ldquo;A Novel Stochastic Fuzzy Time Series Forecasting Model Based on a New Partition Method,&rdquo; in IEEE Access, 2021 <br>
 [2] Alyousifi, Yousif &amp; Mahmod, Othman &amp; Husin, Abdullah &amp; Rathnayake, Upaka. A new hybrid fuzzy time series model with an application to predict PM10 concentration. Ecotoxicology and Environmental SafetY, 2021 <br>
 [3] A. Kai Keng, Fuzzy Memberships, AI6124 Assignment 3, Nanyang Technological University, 2023. <br>
@@ -384,25 +896,16 @@
 [7] J. B. Maverick, “How is the exponential moving average (EMA) formula calculated?,” Investopedia, <a href="https://www.investopedia.com/ask/answers/122314/what-exponential-moving-average-ema-formula-and-how-ema-calculated.asp" target="_blank">https://www.investopedia.com/ask/answers/122314/what-exponential-moving-average-ema-formula-and-how-ema-calculated.asp</a>
  (accessed Nov. 22, 2023). [8] A. Gupta, “Fuzzy C-means clustering (FCM) algorithm in Machine Learning,” Medium, <a href="https://medium.com/geekculture/fuzzy-c-means-clustering-fcm-algorithm-in-machine-learning-c2e51e586fff" target="_blank">https://medium.com/geekculture/fuzzy-c-means-clustering-fcm-algorithm-in-machine-learning-c2e51e586fff</a>
  (accessed Nov. 22, 2023). <br></p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-BibTeX" data-lang="BibTeX"><span style="display:flex;"><span><span style="color:#aaa;font-style:italic">&lt;!-- @article{UV01,</span>
-</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic">author = {Detlev A. Unterholzer and Moritz-Maria von Igelfeld},</span>
-</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic">year = {2001},</span>
-</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic">title ={Unusual Uses For Olive Oil},</span>
-</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic">journal = {Journal of Oleic Science},</span>
-</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic">volume = {34),</span>
-</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic">number = {1},</span>
-</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic">pages = {449--489},</span>
-</span></span><span style="display:flex;"><span><span style="color:#aaa;font-style:italic">url = {http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil}} --&gt;</span>
-</span></span></code></pre></div><hr>
+<hr>
 
   </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://reinbugnot.github.io/tags/fuzzy-inference-systems/">Fuzzy Inference Systems</a></li>
-      <li><a href="https://reinbugnot.github.io/tags/kmeans/">Kmeans</a></li>
-      <li><a href="https://reinbugnot.github.io/tags/time-series-forecasting/">Time Series Forecasting</a></li>
-      <li><a href="https://reinbugnot.github.io/tags/data-science/">Data Science</a></li>
+      <li><a href="http://localhost:1313/tags/fuzzy-inference-systems/">Fuzzy Inference Systems</a></li>
+      <li><a href="http://localhost:1313/tags/kmeans/">Kmeans</a></li>
+      <li><a href="http://localhost:1313/tags/time-series-forecasting/">Time Series Forecasting</a></li>
+      <li><a href="http://localhost:1313/tags/data-science/">Data Science</a></li>
     </ul>
   </footer>
 </article>

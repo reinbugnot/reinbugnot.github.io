@@ -6,14 +6,14 @@
     <description>Recent content in Projects on Rein Bugnot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Oct 2003 00:00:00 +0000</lastBuildDate><atom:link href="https://reinbugnot.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://reinbugnot.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Unusual Uses For Olive Oil</title>
+      <title>Forecasting using K-means Fuzzy Hybrid Model (WIP)</title>
       <link>https://reinbugnot.github.io/projects/paper1/</link>
-      <pubDate>Wed, 15 Oct 2003 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://reinbugnot.github.io/projects/paper1/</guid>
-      <description>This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2001.</description>
+      <description>This project explores the use of a Hybrid model involving Fuzzy Inference Systems and K-Means clustering to perform time series forecasting.</description>
     </item>
     
   </channel>

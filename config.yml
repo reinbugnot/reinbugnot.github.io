@@ -17,9 +17,6 @@ menu:
         - name: Projects
           url: projects/
           weight: 2
-        - name: Blog
-          url: blog/
-          weight: 3
 
 params:
     description: "I am a Data Scientist with 4+ years of experience in Machine Learning and A.I. I took a Master's Degree in Artificial Intelligence in Nanyang Technological University, Singapore. I'm passionate in building Data Science solutions to solve business problems."
@@ -67,8 +64,6 @@ params:
               url: BUGNOT - RESUME v2.pdf
             - name: Projects
               url: projects/
-            - name: Blog
-              url: blog/
 
     socialIcons:
         - name: Email

@@ -2,13 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://reinbugnot.github.io/tags/data-science/</loc>
+    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reinbugnot.github.io/projects/paper1/</loc>
+    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reinbugnot.github.io/tags/fuzzy-inference-systems/</loc>
+    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reinbugnot.github.io/tags/kmeans/</loc>
+    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reinbugnot.github.io/projects/</loc>
+    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reinbugnot.github.io/</loc>
+    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reinbugnot.github.io/tags/</loc>
+    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reinbugnot.github.io/tags/time-series-forecasting/</loc>
+    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://reinbugnot.github.io/location/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://reinbugnot.github.io/officehours/</loc>
-    <lastmod>2024-05-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://reinbugnot.github.io/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://reinbugnot.github.io/data/</loc>
@@ -38,9 +59,6 @@
     <loc>https://reinbugnot.github.io/tags/spanish/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://reinbugnot.github.io/tags/</loc>
-    <lastmod>2024-05-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://reinbugnot.github.io/tags/history-of-oil/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
@@ -53,13 +71,7 @@
     <loc>https://reinbugnot.github.io/papers/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://reinbugnot.github.io/projects/</loc>
-    <lastmod>2024-05-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://reinbugnot.github.io/papers/paper1/</loc>
-    <lastmod>2024-05-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://reinbugnot.github.io/projects/paper1/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://reinbugnot.github.io/courses/</loc>

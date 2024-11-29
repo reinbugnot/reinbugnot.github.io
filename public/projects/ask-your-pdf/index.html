@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Ask your PDF: Retrieval-Augmented Generator (RAG) for SAFe® for Teams Workbook | Rein Bugnot</title>
+<meta name="keywords" content="retrieval augmented generation, rag, ai, chatbot">
+<meta name="description" content="I built a simple RAG system that answers multiple-choice questions based on the content of an uploaded PDF file to allow users to quickly extract and synthesize information from complex and long documents.">
+<meta name="author" content="Reinelle Jan Bugnot">
+<link rel="canonical" href="https://reinbugnot.github.io/projects/ask-your-pdf/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.ba1d931b8d3f8d2a69e875b94ec1b6a0ac7dff69e1208957e39c19b9b7fc8d45.css" integrity="sha256-uh2TG40/jSpp6HW5TsG2oKx9/2nhIIlX45wZubf8jUU=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://reinbugnot.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://reinbugnot.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://reinbugnot.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://reinbugnot.github.io/apple-touch-icon.png">
+
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://reinbugnot.github.io/projects/ask-your-pdf/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Ask your PDF: Retrieval-Augmented Generator (RAG) for SAFe® for Teams Workbook" />
+<meta property="og:description" content="I built a simple RAG system that answers multiple-choice questions based on the content of an uploaded PDF file to allow users to quickly extract and synthesize information from complex and long documents." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://reinbugnot.github.io/projects/ask-your-pdf/" />
+<meta property="og:image" content="https://reinbugnot.github.io/rag-sample.png" /><meta property="article:section" content="projects" />
+<meta property="article:published_time" content="2024-11-29T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-11-29T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://reinbugnot.github.io/rag-sample.png" />
+<meta name="twitter:title" content="Ask your PDF: Retrieval-Augmented Generator (RAG) for SAFe® for Teams Workbook"/>
+<meta name="twitter:description" content="I built a simple RAG system that answers multiple-choice questions based on the content of an uploaded PDF file to allow users to quickly extract and synthesize information from complex and long documents."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Projects",
+      "item": "https://reinbugnot.github.io/projects/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Ask your PDF: Retrieval-Augmented Generator (RAG) for SAFe® for Teams Workbook",
+      "item": "https://reinbugnot.github.io/projects/ask-your-pdf/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Ask your PDF: Retrieval-Augmented Generator (RAG) for SAFe® for Teams Workbook",
+  "name": "Ask your PDF: Retrieval-Augmented Generator (RAG) for SAFe® for Teams Workbook",
+  "description": "I built a simple RAG system that answers multiple-choice questions based on the content of an uploaded PDF file to allow users to quickly extract and synthesize information from complex and long documents.",
+  "keywords": [
+    "retrieval augmented generation", "rag", "ai", "chatbot"
+  ],
+  "articleBody": "\rOverview This project demonstrates a Retrieval-Augmented Generator (RAG) system designed to answer multiple-choice questions based on the content of an uploaded PDF file to allow users to quickly extract and synthesize information from complex documents.\nIn this implementation, the example document is the SAFe® for Teams: Establishing Team Agility for Agile Release Trains 6.0.2 workbook. The system can be accessed via a Command Line Interface (CLI) or through sample notebooks provided in the notebooks/ folder.\nFeatures Efficient PDF Parsing: Extracts content from PDF files and splits it into manageable chunks for processing. AI-Powered Question Answering: Leverages OpenAI’s GPT-4o-mini and FAISS (a fast vector search library) to answer multiple-choice questions accurately. Streamlined CLI Interface: Interact with the RAG system directly through a terminal-based command-line interface. Technologies Used OpenAI GPT-4o-mini: Base LLM. PyPDFLoader: To extract text from PDF documents. LangChain: For document loading, vector store management, and tools integration. FAISS: For efficient vector-based document retrieval. Installation Prerequisites Python 3.8 or later An OpenAI API key Dependencies listed in requirements.txt Steps Clone this repository:\ngit clone https://github.com/your-username/ask-your-pdf.git cd ask-your-pdf Install dependencies:\npip install -r requirements.txt Set your OpenAI API key:\nexport OPENAI_API_KEY=\"your-api-key\" Place your PDF document in the data/ directory (e.g., data/CERT_RAG.pdf).\nUsage CLI Interface Run the CLI script to interact with the system:\npython rag_cli.py Follow the prompts to input your question and multiple-choice options. For example:\nEnter your question (or type 'exit' to quit): What is the primary purpose of Agile Release Trains? A. To deliver value to customers B. To manage team dependencies C. To ensure compliance with regulations D. To create detailed project plans The system will process the input and provide an AI-generated answer based on the PDF content.\nFile Structure . ├── data/ │ └── CERT_RAG.pdf # Example PDF document ├── notebooks/ │ └── example_notebook.ipynb # Sample notebook for experimentation ├── assets/ │ └── rag-sample.png # Example output image ├── requirements.txt # Python dependencies ├── rag_cli.py # CLI script for RAG system ├── README.md # Project documentation Example Output Here is a sample output from the system:\nEnter your question (or type 'exit' to quit): What is the primary purpose of Agile Release Trains? A. To deliver value to customers B. To manage team dependencies C. To ensure compliance with regulations D. To create detailed project plans Generating answer based on the document... ================================== AI Message ================================== The primary purpose of Agile Release Trains is: A. To deliver value to customers. Future Enhancements Add support for additional document formats (e.g., Word, HTML). Extend the CLI to include batch processing for multiple questions. Develop a web-based GUI for easier accessibility. Enhance support for multilingual documents. License This project is licensed under the MIT License. See LICENSE for more details.\nContact For questions or collaboration, feel free to reach out:\nEmail: reinbugnot@gmail.com\rLinkedIn: Rein Bugnot\r",
+  "wordCount" : "466",
+  "inLanguage": "en",
+  "image":"https://reinbugnot.github.io/rag-sample.png","datePublished": "2024-11-29T00:00:00Z",
+  "dateModified": "2024-11-29T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Reinelle Jan Bugnot"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://reinbugnot.github.io/projects/ask-your-pdf/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rein Bugnot",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://reinbugnot.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://reinbugnot.github.io/" accesskey="h" title="Rein Bugnot">
+             
+                <img src="https://reinbugnot.github.io/favicon.ico" alt="" aria-label="logo"
+                    height="18"
+                    width="18">Rein Bugnot</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://reinbugnot.github.io/cv/" title="CV">
+                    <span>CV</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://reinbugnot.github.io/projects/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Ask your PDF: Retrieval-Augmented Generator (RAG) for SAFe® for Teams Workbook
+    </h1>
+    <div class="post-meta"><span title='2024-11-29 00:00:00 +0000 UTC'>November 2024</span>&nbsp;&middot;&nbsp;Reinelle Jan Bugnot&nbsp;&middot;&nbsp;<a href="https://github.com/reinbugnot/ask-your-pdf" rel="noopener noreferrer" target="_blank">Ask your PDF</a>
+
+</div>
+  </header> 
+  <div class="post-content"><p><img loading="lazy" src="rag-sample.png" alt=""  />
+</p>
+<h2 id="overview">Overview</h2>
+<p>This project demonstrates a <strong>Retrieval-Augmented Generator (RAG)</strong> system designed to answer multiple-choice questions based on the content of an uploaded PDF file to allow users to quickly extract and synthesize information from complex documents.</p>
+<p>In this implementation, the example document is the <em>SAFe® for Teams: Establishing Team Agility for Agile Release Trains 6.0.2</em> workbook. The system can be accessed via a Command Line Interface (CLI) or through sample notebooks provided in the <code>notebooks/</code> folder.</p>
+<hr>
+<h2 id="features">Features</h2>
+<ul>
+<li><strong>Efficient PDF Parsing</strong>: Extracts content from PDF files and splits it into manageable chunks for processing.</li>
+<li><strong>AI-Powered Question Answering</strong>: Leverages OpenAI&rsquo;s GPT-4o-mini and FAISS (a fast vector search library) to answer multiple-choice questions accurately.</li>
+<li><strong>Streamlined CLI Interface</strong>: Interact with the RAG system directly through a terminal-based command-line interface.</li>
+</ul>
+<hr>
+<h2 id="technologies-used">Technologies Used</h2>
+<ul>
+<li><strong>OpenAI GPT-4o-mini</strong>: Base LLM.</li>
+<li><strong>PyPDFLoader</strong>: To extract text from PDF documents.</li>
+<li><strong>LangChain</strong>: For document loading, vector store management, and tools integration.</li>
+<li><strong>FAISS</strong>: For efficient vector-based document retrieval.</li>
+</ul>
+<hr>
+<h2 id="installation">Installation</h2>
+<h3 id="prerequisites">Prerequisites</h3>
+<ul>
+<li>Python 3.8 or later</li>
+<li>An OpenAI API key</li>
+<li>Dependencies listed in <code>requirements.txt</code></li>
+</ul>
+<h3 id="steps">Steps</h3>
+<ol>
+<li>
+<p>Clone this repository:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/your-username/ask-your-pdf.git
+</span></span><span style="display:flex;"><span><span style="color:#0aa">cd</span> ask-your-pdf
+</span></span></code></pre></div></li>
+<li>
+<p>Install dependencies:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip install -r requirements.txt
+</span></span></code></pre></div></li>
+<li>
+<p>Set your OpenAI API key:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#0aa">export</span> <span style="color:#a00">OPENAI_API_KEY</span>=<span style="color:#a50">&#34;your-api-key&#34;</span>
+</span></span></code></pre></div></li>
+<li>
+<p>Place your PDF document in the <code>data/</code> directory (e.g., <code>data/CERT_RAG.pdf</code>).</p>
+</li>
+</ol>
+<hr>
+<h2 id="usage">Usage</h2>
+<h3 id="cli-interface">CLI Interface</h3>
+<p>Run the CLI script to interact with the system:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python rag_cli.py
+</span></span></code></pre></div><p>Follow the prompts to input your question and multiple-choice options. For example:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Enter your question (or type &#39;exit&#39; to quit):
+</span></span><span style="display:flex;"><span>What is the primary purpose of Agile Release Trains?
+</span></span><span style="display:flex;"><span>A. To deliver value to customers
+</span></span><span style="display:flex;"><span>B. To manage team dependencies
+</span></span><span style="display:flex;"><span>C. To ensure compliance with regulations
+</span></span><span style="display:flex;"><span>D. To create detailed project plans
+</span></span></code></pre></div><p>The system will process the input and provide an AI-generated answer based on the PDF content.</p>
+<hr>
+<h2 id="file-structure">File Structure</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>.
+</span></span><span style="display:flex;"><span>├── data/
+</span></span><span style="display:flex;"><span>│   └── CERT_RAG.pdf              # Example PDF document
+</span></span><span style="display:flex;"><span>├── notebooks/
+</span></span><span style="display:flex;"><span>│   └── example_notebook.ipynb    # Sample notebook for experimentation
+</span></span><span style="display:flex;"><span>├── assets/
+</span></span><span style="display:flex;"><span>│   └── rag-sample.png            # Example output image
+</span></span><span style="display:flex;"><span>├── requirements.txt              # Python dependencies
+</span></span><span style="display:flex;"><span>├── rag_cli.py                    # CLI script for RAG system
+</span></span><span style="display:flex;"><span>├── README.md                     # Project documentation
+</span></span></code></pre></div><hr>
+<h2 id="example-output">Example Output</h2>
+<p>Here is a sample output from the system:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Enter your question (or type &#39;exit&#39; to quit):
+</span></span><span style="display:flex;"><span>What is the primary purpose of Agile Release Trains?
+</span></span><span style="display:flex;"><span>A. To deliver value to customers
+</span></span><span style="display:flex;"><span>B. To manage team dependencies
+</span></span><span style="display:flex;"><span>C. To ensure compliance with regulations
+</span></span><span style="display:flex;"><span>D. To create detailed project plans
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Generating answer based on the document...
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>================================== AI Message ==================================
+</span></span><span style="display:flex;"><span>The primary purpose of Agile Release Trains is: A. To deliver value to customers.
+</span></span></code></pre></div><hr>
+<h2 id="future-enhancements">Future Enhancements</h2>
+<ul>
+<li>Add support for additional document formats (e.g., Word, HTML).</li>
+<li>Extend the CLI to include batch processing for multiple questions.</li>
+<li>Develop a web-based GUI for easier accessibility.</li>
+<li>Enhance support for multilingual documents.</li>
+</ul>
+<hr>
+<h2 id="license">License</h2>
+<p>This project is licensed under the MIT License. See <code>LICENSE</code> for more details.</p>
+<hr>
+<h2 id="contact">Contact</h2>
+<p>For questions or collaboration, feel free to reach out:</p>
+<ul>
+<li><strong>Email</strong>: <a href="mailto:reinbugnot@gmail.com">reinbugnot@gmail.com</a>
+</li>
+<li><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/reinbugnot" target="_blank">Rein Bugnot</a>
+</li>
+</ul>
+<hr>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://reinbugnot.github.io/tags/retrieval-augmented-generation/">Retrieval Augmented Generation</a></li>
+      <li><a href="https://reinbugnot.github.io/tags/rag/">Rag</a></li>
+      <li><a href="https://reinbugnot.github.io/tags/ai/">Ai</a></li>
+      <li><a href="https://reinbugnot.github.io/tags/chatbot/">Chatbot</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    &copy; 2024 Rein Bugnot
+    <span>
+    &middot;  Powered by 
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/pmichaillat/hugo-website/" rel="noopener" target="_blank">a modified version</a>
+         of 
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+</html>

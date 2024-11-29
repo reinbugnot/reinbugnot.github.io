@@ -2,6 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://reinbugnot.github.io/tags/ai/</loc>
+    <lastmod>2024-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reinbugnot.github.io/projects/ask-your-pdf/</loc>
+    <lastmod>2024-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reinbugnot.github.io/tags/chatbot/</loc>
+    <lastmod>2024-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reinbugnot.github.io/tags/computer-vision/</loc>
+    <lastmod>2024-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reinbugnot.github.io/tags/keypoint-detection/</loc>
+    <lastmod>2024-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reinbugnot.github.io/projects/keypoint-detection-using-sift/</loc>
+    <lastmod>2024-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reinbugnot.github.io/projects/</loc>
+    <lastmod>2024-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reinbugnot.github.io/tags/python/</loc>
+    <lastmod>2024-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reinbugnot.github.io/tags/rag/</loc>
+    <lastmod>2024-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reinbugnot.github.io/</loc>
+    <lastmod>2024-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reinbugnot.github.io/tags/retrieval-augmented-generation/</loc>
+    <lastmod>2024-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reinbugnot.github.io/tags/sift/</loc>
+    <lastmod>2024-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://reinbugnot.github.io/tags/</loc>
+    <lastmod>2024-11-29T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://reinbugnot.github.io/tags/data-science/</loc>
     <lastmod>2024-06-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -12,15 +51,6 @@
     <lastmod>2024-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://reinbugnot.github.io/tags/kmeans/</loc>
-    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://reinbugnot.github.io/projects/</loc>
-    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://reinbugnot.github.io/</loc>
-    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://reinbugnot.github.io/tags/</loc>
     <lastmod>2024-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://reinbugnot.github.io/tags/time-series-forecasting/</loc>

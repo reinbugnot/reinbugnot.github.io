@@ -6,7 +6,25 @@
     <description>Recent content in Projects on Rein Bugnot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://reinbugnot.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://reinbugnot.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ask your PDF: Retrieval-Augmented Generator (RAG) for SAFe® for Teams Workbook</title>
+      <link>https://reinbugnot.github.io/projects/ask-your-pdf/</link>
+      <pubDate>Fri, 29 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://reinbugnot.github.io/projects/ask-your-pdf/</guid>
+      <description>I built a simple RAG system that answers multiple-choice questions based on the content of an uploaded PDF file to allow users to quickly extract and synthesize information from complex and long documents.</description>
+    </item>
+    
+    <item>
+      <title>Keypoint Detection using SIFT</title>
+      <link>https://reinbugnot.github.io/projects/keypoint-detection-using-sift/</link>
+      <pubDate>Fri, 29 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://reinbugnot.github.io/projects/keypoint-detection-using-sift/</guid>
+      <description>This repository contains the **MANUAL** pythonic implementation of the Scale-Invariant Feature Transform (SIFT) algorithm using basic Python packages for computer vision applications.</description>
+    </item>
+    
     <item>
       <title>Forecasting using K-means Fuzzy Hybrid Model</title>
       <link>https://reinbugnot.github.io/projects/paper1/</link>
